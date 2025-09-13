@@ -5,19 +5,22 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-smooth focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-2xl text-sm font-semibold transition-bounce focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary-light shadow-primary",
-        hero: "bg-gradient-hero text-white hover:scale-105 shadow-elegant border-0 font-semibold",
-        whatsapp: "bg-green-600 text-white hover:bg-green-700 shadow-md hover:shadow-lg",
-        cta: "bg-gradient-primary text-primary-foreground hover:bg-primary-light shadow-primary hover:shadow-elegant",
-        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary-light shadow-secondary",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+        default: "bg-gradient-primary text-white hover:scale-105 shadow-fun hover:shadow-hover border-0 hover:animate-pulse-glow",
+        hero: "bg-gradient-hero text-white hover:scale-110 shadow-hover border-0 font-bold text-lg hover:rotate-1 transition-elastic",
+        whatsapp: "bg-green-500 text-white hover:bg-green-600 hover:scale-105 shadow-fun hover:shadow-hover rounded-full",
+        cta: "bg-gradient-secondary text-white hover:scale-105 shadow-secondary hover:shadow-hover border-0 font-bold",
+        fun: "bg-gradient-fun text-white hover:scale-105 hover:rotate-2 shadow-glow hover:shadow-hover border-0 font-bold animate-float",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 hover:scale-105",
+        outline: "border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-white hover:scale-105 transition-bounce",
+        secondary: "bg-gradient-card border border-secondary/20 text-foreground hover:bg-gradient-secondary hover:text-white hover:scale-105 shadow-secondary",
+        ghost: "hover:bg-gradient-card hover:text-primary hover:scale-105 rounded-xl",
+        link: "text-primary underline-offset-4 hover:underline hover:text-secondary transition-pop",
+        instagram: "bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white hover:scale-105 shadow-fun rounded-full",
+        tiktok: "bg-black text-white hover:bg-gray-800 hover:scale-105 shadow-fun rounded-full",
       },
       size: {
         default: "h-10 px-4 py-2",

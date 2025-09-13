@@ -2,62 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Medellín by Jackie Design System - Colombian-inspired palette */
+/* Medellín by Jackie - Fun & Vibrant Design System for Gen Z & Millennials 🎨 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 155 25% 15%;
+    --foreground: 220 15% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 155 25% 15%;
+    --card-foreground: 220 15% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 155 25% 15%;
+    --popover-foreground: 220 15% 12%;
 
-    /* Colombian Green - Primary brand color */
-    --primary: 155 65% 25%;
-    --primary-foreground: 0 0% 98%;
-    --primary-light: 155 45% 35%;
-    --primary-dark: 155 75% 15%;
+    /* Vibrant Colombian Palette - Eye-catching & Modern */
+    --primary: 158 85% 35%;        /* Electric Colombian Green */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 158 75% 45%;
+    --primary-dark: 158 95% 25%;
 
-    /* Colombian Gold - Secondary accent */
-    --secondary: 45 85% 55%;
-    --secondary-foreground: 155 25% 15%;
-    --secondary-light: 45 75% 65%;
+    /* Sunset Colombian Gold - Instagram-worthy */
+    --secondary: 35 95% 60%;       /* Vibrant sunset orange */
+    --secondary-foreground: 220 15% 12%;
+    --secondary-light: 35 85% 70%;
+    --secondary-dark: 35 100% 50%;
 
-    /* Sky Blue - Tertiary accent */
-    --tertiary: 200 85% 55%;
-    --tertiary-foreground: 0 0% 98%;
-    --tertiary-light: 200 75% 65%;
+    /* Electric Sky Blue - Social media vibes */
+    --tertiary: 195 100% 55%;      /* Bright sky blue */
+    --tertiary-foreground: 0 0% 100%;
+    --tertiary-light: 195 90% 65%;
+    --tertiary-dark: 195 100% 45%;
 
-    --muted: 155 15% 96%;
-    --muted-foreground: 155 15% 45%;
+    /* Fun accent colors */
+    --accent: 280 85% 65%;         /* Purple/magenta accent */
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 280 75% 75%;
 
-    --accent: 200 85% 55%;
-    --accent-foreground: 0 0% 98%;
+    --muted: 210 20% 97%;
+    --muted-foreground: 215 15% 45%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 90% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 155 15% 90%;
-    --input: 155 15% 94%;
-    --ring: 155 65% 25%;
+    --border: 210 20% 92%;
+    --input: 210 20% 95%;
+    --ring: 158 85% 35%;
 
-    /* Beautiful gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(155 65% 25%), hsl(155 45% 35%));
-    --gradient-secondary: linear-gradient(135deg, hsl(45 85% 55%), hsl(45 75% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(155 65% 25%) 0%, hsl(200 85% 55%) 50%, hsl(45 85% 55%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(155 15% 98%) 100%);
+    /* Gen Z Gradients - Bold & Playful */
+    --gradient-primary: linear-gradient(135deg, hsl(158 85% 35%) 0%, hsl(195 100% 55%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(35 95% 60%) 0%, hsl(280 85% 65%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(158 95% 25%) 0%, hsl(195 100% 55%) 30%, hsl(35 95% 60%) 70%, hsl(280 85% 65%) 100%);
+    --gradient-fun: linear-gradient(45deg, hsl(158 85% 35%) 0%, hsl(35 95% 60%) 25%, hsl(195 100% 55%) 50%, hsl(280 85% 65%) 75%, hsl(158 85% 35%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(195 30% 98%) 50%, hsl(158 20% 98%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
 
-    /* Shadows with Colombian colors */
-    --shadow-primary: 0 10px 30px -10px hsl(155 65% 25% / 0.3);
-    --shadow-secondary: 0 8px 25px -8px hsl(45 85% 55% / 0.25);
-    --shadow-elegant: 0 20px 40px -12px hsl(155 65% 25% / 0.15);
+    /* Modern Playful Shadows */
+    --shadow-primary: 0 20px 40px -10px hsl(158 85% 35% / 0.3);
+    --shadow-secondary: 0 15px 35px -8px hsl(35 95% 60% / 0.25);
+    --shadow-fun: 0 25px 50px -15px hsl(195 100% 55% / 0.2);
+    --shadow-glow: 0 0 30px hsl(158 85% 35% / 0.3);
+    --shadow-hover: 0 30px 60px -12px hsl(158 85% 35% / 0.4);
 
-    /* Smooth animations */
+    /* Bouncy Gen Z Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-elastic: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    --transition-pop: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 

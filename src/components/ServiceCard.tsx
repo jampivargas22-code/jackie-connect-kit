@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { LucideIcon } from "lucide-react";
+import { LucideIcon, Sparkles } from "lucide-react";
 
 interface ServiceCardProps {
   title: string;
@@ -13,28 +13,42 @@ interface ServiceCardProps {
 
 export function ServiceCard({ title, description, price, icon: Icon, features, className = "" }: ServiceCardProps) {
   return (
-    <Card className={`relative overflow-hidden bg-gradient-subtle border-0 shadow-elegant hover:shadow-primary transition-smooth hover:-translate-y-1 ${className}`}>
+    <Card className={`group relative overflow-hidden bg-gradient-card border-0 shadow-hover hover:shadow-glow transition-elastic hover:-translate-y-2 hover:scale-105 ${className}`}>
+      {/* Floating sparkles */}
+      <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-500">
+        <Sparkles className="w-5 h-5 text-primary animate-wiggle" />
+      </div>
+      
       <CardHeader className="text-center pb-4">
-        <div className="w-16 h-16 mx-auto mb-4 bg-gradient-primary rounded-full flex items-center justify-center shadow-primary">
-          <Icon className="w-8 h-8 text-white" />
+        <div className="w-20 h-20 mx-auto mb-4 bg-gradient-fun rounded-full flex items-center justify-center shadow-glow group-hover:animate-bounce-in group-hover:rotate-12 transition-elastic">
+          <Icon className="w-10 h-10 text-white" />
         </div>
-        <CardTitle className="text-xl font-bold text-foreground">{title}</CardTitle>
-        <CardDescription className="text-muted-foreground text-base">{description}</CardDescription>
-        <div className="text-2xl font-bold text-primary">{price}</div>
+        <CardTitle className="text-2xl font-bold text-foreground font-display group-hover:text-primary transition-smooth">
+          {title}
+        </CardTitle>
+        <CardDescription className="text-muted-foreground text-base leading-relaxed">
+          {description}
+        </CardDescription>
+        <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent font-display">
+          {price}
+        </div>
       </CardHeader>
       <CardContent className="pt-0">
-        <ul className="space-y-2 mb-6">
+        <ul className="space-y-3 mb-6">
           {features.map((feature, index) => (
-            <li key={index} className="flex items-center text-sm text-muted-foreground">
-              <div className="w-2 h-2 bg-secondary rounded-full mr-3 flex-shrink-0" />
-              {feature}
+            <li key={index} className="flex items-start gap-3 text-sm text-muted-foreground group-hover:text-foreground transition-smooth">
+              <div className="w-3 h-3 bg-gradient-secondary rounded-full mt-2 flex-shrink-0 animate-pulse group-hover:animate-wiggle" />
+              <span className="leading-relaxed font-medium">{feature}</span>
             </li>
           ))}
         </ul>
-        <Button variant="cta" size="lg" className="w-full">
-          Book Now
+        <Button variant="fun" size="lg" className="w-full group-hover:scale-105">
+          Let's Do This! 🚀
         </Button>
       </CardContent>
+      
+      {/* Gradient overlay on hover */}
+      <div className="absolute inset-0 bg-gradient-fun opacity-0 group-hover:opacity-10 transition-all duration-500 rounded-lg" />
     </Card>
   );
 }
