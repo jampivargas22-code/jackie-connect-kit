@@ -1,0 +1,185 @@
+{
+  "header": {
+    "title": "Medellín by Jackie",
+    "subtitle": "Your cool local driver 🇨🇴",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "badge": "✨ Your Medellín Adventure Starts Here",
+    "greeting": "Hey, I'm",
+    "name": "Jackie!",
+    "tagline": "Your favorite local driver 🚗💨",
+    "description": "Forget boring taxi rides! I'm here to show you the REAL Medellín with style, safety, and way too much fun. New 2025 car, perfect English, and all the local tea ☕",
+    "chatButton": "Let's Chat! 💬",
+    "adventuresButton": "See Adventures",
+    "licensed": "Licensed & Insured ✅",
+    "newCar": "2025 Ride 🔥",
+    "bilingual": "Bilingual AF 🗣️",
+    "happyTravelers": "Happy Travelers 🎉"
+  },
+  "services": {
+    "badge": "🎯 What I Do Best",
+    "title": "Choose Your",
+    "titleAccent": "Adventure",
+    "subtitle": "From airport pickups to epic day trips - I've got your transportation covered with style and good vibes only! 🌟",
+    "airport": {
+      "title": "Airport Vibes ✈️",
+      "description": "No more sketchy airport pickups! I'll be there with a big smile (and AC)",
+      "price": "$35-45 USD",
+      "features": [
+        "Flight tracking (I know when you land) 📲",
+        "Meet & greet at arrivals 👋",
+        "Brand new 2025 car (spotless AF) ✨",
+        "Speaks fluent English & Spanish 🗣️",
+        "Fixed price - no surge nonsense 💯"
+      ]
+    },
+    "guatape": {
+      "title": "Guatapé Magic 🌈",
+      "description": "THE iconic day trip! Climb El Peñol rock, explore the colorful town, eat at hidden gem spots",
+      "price": "$150 USD",
+      "features": [
+        "Private round-trip transport (2hrs each way) 🚗",
+        "El Peñol Rock - 740 steps to heaven 🏔️",
+        "Colorful zócalos town photo ops 📸",
+        "Hidden local restaurants (best bandeja!) 🍽️",
+        "Lakeside views & boat rides (optional) ⛵",
+        "8-10 hours of pure adventure 🌟"
+      ]
+    },
+    "comuna13": {
+      "title": "Comuna 13 Vibes 🎨",
+      "description": "From war zone to art zone - see Medellín's most inspiring transformation story!",
+      "price": "$80 USD",
+      "features": [
+        "Electric escalators (world-famous!) 🛗",
+        "Street art & graffiti tour 🎨",
+        "Meet local artists & guides 👨‍🎨",
+        "Hip-hop history & transformation story 🎤",
+        "Souvenir shopping & local snacks 🛍️",
+        "4-5 hours including transport 🕐"
+      ]
+    },
+    "coffee": {
+      "title": "Coffee Farm Adventure ☕",
+      "description": "Bean-to-cup experience in Colombia's coffee country - taste the real deal!",
+      "price": "$120 USD",
+      "features": [
+        "Visit authentic coffee finca 🌱",
+        "Learn the full coffee process 👨‍🌾",
+        "Taste freshly roasted beans ☕",
+        "Stunning mountain views 🏔️",
+        "Traditional lunch included 🍽️",
+        "Full day trip (8 hours) 🌅"
+      ]
+    },
+    "paragliding": {
+      "title": "Paragliding Thrill 🪂",
+      "description": "Fly over Medellín like a bird! Epic views + adrenaline rush = unforgettable",
+      "price": "$250 USD",
+      "features": [
+        "Transport to/from San Félix 🚗",
+        "20-30 min flight included 🪂",
+        "Professional pilot & gear ✅",
+        "GoPro photos/videos 📹",
+        "Pre-flight safety briefing 🛡️",
+        "Half day experience (4-5 hours) ⏰"
+      ]
+    },
+    "pablo": {
+      "title": "Pablo History Tour 🕵️",
+      "description": "Controversial but curious? See the real story - not glorified, just facts",
+      "price": "$90 USD",
+      "features": [
+        "Monaco building & transformation 🏢",
+        "Inflection Memorial (victims honored) 🕊️",
+        "His final neighborhood 📍",
+        "Historical context (1980s-90s) 📚",
+        "Balanced perspective - not glorification ⚖️",
+        "4-5 hours with local insights 🗣️"
+      ]
+    },
+    "nightlife": {
+      "title": "Food & Nightlife 🍻",
+      "description": "Eat like a local, party like a local - salsa, drinks, and epic eats!",
+      "price": "$100 USD",
+      "features": [
+        "Traditional Colombian dinner 🍽️",
+        "Best salsa bars & clubs 💃",
+        "Safe bar-hopping with local tips 🍺",
+        "Meet other travelers 🌍",
+        "Late night safe rides home 🌙",
+        "5-6 hours of fun (starts 7pm) 🎉"
+      ]
+    },
+    "multiday": {
+      "title": "Multi-Day Chauffeur 🚗",
+      "description": "Need a driver for the whole trip? I got you covered for days/weeks!",
+      "price": "$150 USD/day",
+      "features": [
+        "8-12 hours daily convenience 🕐",
+        "Inter-city road trips included 🛣️",
+        "Business meetings & coworking runs 💼",
+        "Shopping sprees & restaurant hopping 🛍️",
+        "Late night safe rides 🌙",
+        "100% flexible schedule 📅"
+      ]
+    },
+    "bookButton": "Let's Do This! 🚀"
+  },
+  "about": {
+    "badge": "👋 Get to Know Me",
+    "title": "Why Everyone",
+    "titleAccent": "Loves",
+    "titleEnd": "Jackie ❤️",
+    "description": "Born and raised in Medellín (so I know ALL the spots 📍), I've been the go-to driver for cool travelers for 5+ years. Fluent in English and Spanish, always with the best playlist, and committed to making your Colombian adventure absolutely unforgettable!",
+    "bilingual": "Perfectly Bilingual",
+    "bilingualSub": "English & Spanish 🗣️",
+    "experience": "5+ Years",
+    "experienceSub": "Making memories ✨",
+    "licensed": "100% Licensed",
+    "licensedSub": "& Insured ✅",
+    "newCar": "Brand New 2025",
+    "newCarSub": "Sedan (so fresh) 🔥",
+    "followText": "Follow me for daily Medellín vibes & travel inspo! 📸",
+    "whyDirect": "Why Book Direct?",
+    "betterPrices": "Better Prices 💰",
+    "betterPricesSub": "No sneaky app fees - just honest pricing",
+    "personalTouch": "Personal Touch 🤝",
+    "personalTouchSub": "Direct chat with me - customize everything!",
+    "localSecrets": "Local Secrets 🗺️",
+    "localSecretsSub": "Hidden gems that tourists never find",
+    "safetyFirst": "Safety First 🛡️",
+    "safetyFirstSub": "Licensed, trusted by international travelers"
+  },
+  "testimonials": {
+    "badge": "💬 Real Talk",
+    "title": "What My",
+    "titleAccent": "Travelers",
+    "titleEnd": "Say",
+    "subtitle": "Don't just take my word for it - here's what awesome people are saying! 🌟"
+  },
+  "cta": {
+    "badge": "🚀 Ready for Adventure?",
+    "title": "Let's Make Your",
+    "titleAccent": "Medellín Trip",
+    "titleEnd": "Epic!",
+    "description": "Book directly with me on WhatsApp - I'll customize the perfect experience for you. No app fees, no middlemen, just awesome vibes and unforgettable memories! 🌟",
+    "whatsappButton": "Chat on WhatsApp 💬",
+    "callButton": "Call Jackie 📞"
+  },
+  "footer": {
+    "tagline": "Your trusted bilingual driver in Medellín 🇨🇴",
+    "description": "Direct booking • New 2025 car • Airport pickups • Private tours • Multi-day chauffeur",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "about": "About Jackie",
+    "contact": "Contact",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "followMe": "Follow Me",
+    "madeWith": "Made with",
+    "in": "in Medellín"
+  }
+}

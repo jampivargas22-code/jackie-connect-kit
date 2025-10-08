@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { LucideIcon, Sparkles } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 interface ServiceCardProps {
   title: string;
@@ -12,6 +13,8 @@ interface ServiceCardProps {
 }
 
 export function ServiceCard({ title, description, price, icon: Icon, features, className = "" }: ServiceCardProps) {
+  const { t } = useTranslation();
+  
   return (
     <Card className={`group relative overflow-hidden bg-gradient-card border-0 shadow-hover hover:shadow-glow transition-elastic hover:-translate-y-2 hover:scale-105 ${className}`}>
       {/* Floating sparkles */}
@@ -43,7 +46,7 @@ export function ServiceCard({ title, description, price, icon: Icon, features, c
           ))}
         </ul>
         <Button variant="fun" size="lg" className="w-full group-hover:scale-105">
-          Let's Do This! 🚀
+          {t('services.bookButton')}
         </Button>
       </CardContent>
       

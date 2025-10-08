@@ -1,0 +1,185 @@
+{
+  "header": {
+    "title": "Medellín con Jackie",
+    "subtitle": "Tu conductora local favorita 🇨🇴",
+    "bookNow": "Reservar Ahora"
+  },
+  "hero": {
+    "badge": "✨ Tu Aventura en Medellín Comienza Aquí",
+    "greeting": "Hola, soy",
+    "name": "Jackie!",
+    "tagline": "Tu conductora local favorita 🚗💨",
+    "description": "¡Olvídate de los taxis aburridos! Estoy aquí para mostrarte el Medellín REAL con estilo, seguridad y mucha diversión. Carro nuevo 2025, inglés perfecto y todo el chisme local ☕",
+    "chatButton": "¡Hablemos! 💬",
+    "adventuresButton": "Ver Aventuras",
+    "licensed": "Licenciada y Asegurada ✅",
+    "newCar": "Carro 2025 🔥",
+    "bilingual": "100% Bilingüe 🗣️",
+    "happyTravelers": "Viajeros Felices 🎉"
+  },
+  "services": {
+    "badge": "🎯 Lo Que Hago Mejor",
+    "title": "Elige Tu",
+    "titleAccent": "Aventura",
+    "subtitle": "Desde recogidas en el aeropuerto hasta viajes épicos de un día - ¡tengo tu transporte cubierto con estilo y solo buenas vibras! 🌟",
+    "airport": {
+      "title": "Aeropuerto Fácil ✈️",
+      "description": "¡No más recogidas dudosas! Estaré allí con una gran sonrisa (y A/C)",
+      "price": "$35-45 USD",
+      "features": [
+        "Seguimiento de vuelo (sé cuándo aterrizas) 📲",
+        "Recibimiento en llegadas 👋",
+        "Carro nuevo 2025 (impecable) ✨",
+        "Habla inglés y español fluido 🗣️",
+        "Precio fijo - sin tarifas dinámicas 💯"
+      ]
+    },
+    "guatape": {
+      "title": "Magia de Guatapé 🌈",
+      "description": "¡EL viaje de un día icónico! Sube la Piedra del Peñol, explora el pueblo colorido, come en lugares secretos",
+      "price": "$150 USD",
+      "features": [
+        "Transporte privado ida y vuelta (2hrs cada trayecto) 🚗",
+        "Piedra del Peñol - 740 escalones al paraíso 🏔️",
+        "Pueblo de zócalos coloridos para fotos 📸",
+        "Restaurantes locales escondidos (¡mejor bandeja!) 🍽️",
+        "Vistas del lago y paseos en lancha (opcional) ⛵",
+        "8-10 horas de pura aventura 🌟"
+      ]
+    },
+    "comuna13": {
+      "title": "Vibras de Comuna 13 🎨",
+      "description": "¡De zona de guerra a zona de arte - ve la historia de transformación más inspiradora de Medellín!",
+      "price": "$80 USD",
+      "features": [
+        "Escaleras eléctricas (¡mundialmente famosas!) 🛗",
+        "Tour de arte callejero y grafiti 🎨",
+        "Conoce artistas y guías locales 👨‍🎨",
+        "Historia del hip-hop y transformación 🎤",
+        "Compras de souvenirs y snacks locales 🛍️",
+        "4-5 horas incluyendo transporte 🕐"
+      ]
+    },
+    "coffee": {
+      "title": "Aventura en Finca Cafetera ☕",
+      "description": "¡Experiencia del grano a la taza en el país del café - prueba lo real!",
+      "price": "$120 USD",
+      "features": [
+        "Visita finca cafetera auténtica 🌱",
+        "Aprende todo el proceso del café 👨‍🌾",
+        "Prueba granos recién tostados ☕",
+        "Vistas impresionantes de montaña 🏔️",
+        "Almuerzo tradicional incluido 🍽️",
+        "Viaje de día completo (8 horas) 🌅"
+      ]
+    },
+    "paragliding": {
+      "title": "Emoción de Parapente 🪂",
+      "description": "¡Vuela sobre Medellín como un pájaro! Vistas épicas + adrenalina = inolvidable",
+      "price": "$250 USD",
+      "features": [
+        "Transporte desde/hacia San Félix 🚗",
+        "Vuelo de 20-30 min incluido 🪂",
+        "Piloto profesional y equipo ✅",
+        "Fotos/videos GoPro 📹",
+        "Briefing de seguridad prevuelo 🛡️",
+        "Experiencia de medio día (4-5 horas) ⏰"
+      ]
+    },
+    "pablo": {
+      "title": "Tour Historia de Pablo 🕵️",
+      "description": "¿Controversial pero curioso? Ve la historia real - no glorificada, solo hechos",
+      "price": "$90 USD",
+      "features": [
+        "Edificio Mónaco y transformación 🏢",
+        "Memorial Inflexión (víctimas honradas) 🕊️",
+        "Su vecindario final 📍",
+        "Contexto histórico (años 80-90) 📚",
+        "Perspectiva balanceada - sin glorificación ⚖️",
+        "4-5 horas con insights locales 🗣️"
+      ]
+    },
+    "nightlife": {
+      "title": "Comida y Rumba 🍻",
+      "description": "¡Come como local, rumbia como local - salsa, tragos y comida épica!",
+      "price": "$100 USD",
+      "features": [
+        "Cena colombiana tradicional 🍽️",
+        "Mejores bares de salsa y discotecas 💃",
+        "Recorrido seguro de bares con tips locales 🍺",
+        "Conoce otros viajeros 🌍",
+        "Viajes seguros a casa de noche 🌙",
+        "5-6 horas de diversión (inicia 7pm) 🎉"
+      ]
+    },
+    "multiday": {
+      "title": "Chofer Multi-Día 🚗",
+      "description": "¿Necesitas conductor para todo el viaje? ¡Te tengo cubierto por días/semanas!",
+      "price": "$150 USD/día",
+      "features": [
+        "8-12 horas diarias de conveniencia 🕐",
+        "Viajes inter-ciudades incluidos 🛣️",
+        "Reuniones de negocios y coworking 💼",
+        "Compras y salidas a restaurantes 🛍️",
+        "Viajes nocturnos seguros 🌙",
+        "Horario 100% flexible 📅"
+      ]
+    },
+    "bookButton": "¡Hagámoslo! 🚀"
+  },
+  "about": {
+    "badge": "👋 Conóceme",
+    "title": "Por Qué Todos",
+    "titleAccent": "Aman",
+    "titleEnd": "a Jackie ❤️",
+    "description": "Nacida y criada en Medellín (conozco TODOS los lugares 📍), he sido la conductora favorita de viajeros cool por más de 5 años. Fluida en inglés y español, siempre con la mejor playlist, y comprometida a hacer tu aventura colombiana absolutamente inolvidable!",
+    "bilingual": "Perfectamente Bilingüe",
+    "bilingualSub": "Inglés y Español 🗣️",
+    "experience": "Más de 5 Años",
+    "experienceSub": "Creando memorias ✨",
+    "licensed": "100% Licenciada",
+    "licensedSub": "y Asegurada ✅",
+    "newCar": "Nuevo 2025",
+    "newCarSub": "Sedán (súper fresco) 🔥",
+    "followText": "¡Sígueme para vibras diarias de Medellín e inspiración de viaje! 📸",
+    "whyDirect": "¿Por Qué Reservar Directo?",
+    "betterPrices": "Mejores Precios 💰",
+    "betterPricesSub": "Sin tarifas ocultas de apps - solo precios honestos",
+    "personalTouch": "Toque Personal 🤝",
+    "personalTouchSub": "¡Chat directo conmigo - personaliza todo!",
+    "localSecrets": "Secretos Locales 🗺️",
+    "localSecretsSub": "Joyas escondidas que los turistas nunca encuentran",
+    "safetyFirst": "Seguridad Primero 🛡️",
+    "safetyFirstSub": "Licenciada, confiada por viajeros internacionales"
+  },
+  "testimonials": {
+    "badge": "💬 Testimonios Reales",
+    "title": "Lo Que Mis",
+    "titleAccent": "Viajeros",
+    "titleEnd": "Dicen",
+    "subtitle": "¡No solo confíes en mi palabra - aquí está lo que dice gente increíble! 🌟"
+  },
+  "cta": {
+    "badge": "🚀 ¿Lista Para Aventura?",
+    "title": "Hagamos Tu",
+    "titleAccent": "Viaje a Medellín",
+    "titleEnd": "Épico!",
+    "description": "Reserva directamente conmigo por WhatsApp - personalizaré la experiencia perfecta para ti. ¡Sin tarifas de app, sin intermediarios, solo vibras increíbles y memorias inolvidables! 🌟",
+    "whatsappButton": "Chat en WhatsApp 💬",
+    "callButton": "Llamar a Jackie 📞"
+  },
+  "footer": {
+    "tagline": "Tu conductora bilingüe de confianza en Medellín 🇨🇴",
+    "description": "Reserva directa • Carro nuevo 2025 • Recogidas aeropuerto • Tours privados • Chofer multi-día",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "about": "Sobre Jackie",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "followMe": "Sígueme",
+    "madeWith": "Hecho con",
+    "in": "en Medellín"
+  }
+}

@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ServiceCard } from "@/components/ServiceCard";
 import { SocialBar, WhatsAppButton } from "@/components/SocialBar";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useTranslation } from 'react-i18next';
 import { 
   Plane, 
   MapPin, 
@@ -23,119 +25,67 @@ import {
 } from "lucide-react";
 import heroImage from "@/assets/hero-jackie-medellin.jpg";
 
-const services = [
-  {
-    title: "Airport Vibes ✈️",
-    description: "No more sketchy airport pickups! I'll be there with a big smile (and AC)",
-    price: "$35-45 USD",
-    icon: Plane,
-    features: [
-      "Flight tracking (I know when you land) 📲",
-      "Meet & greet at arrivals 👋",
-      "Brand new 2025 car (spotless AF) ✨",
-      "Speaks fluent English & Spanish 🗣️",
-      "Fixed price - no surge nonsense 💯"
-    ]
-  },
-  {
-    title: "Guatapé Magic 🌈",
-    description: "THE iconic day trip! Climb El Peñol rock, explore the colorful town, eat at hidden gem spots",
-    price: "$150 USD",
-    icon: MapPin,
-    features: [
-      "Private round-trip transport (2hrs each way) 🚗",
-      "El Peñol Rock - 740 steps to heaven 🏔️",
-      "Colorful zócalos town photo ops 📸",
-      "Hidden local restaurants (best bandeja!) 🍽️",
-      "Lakeside views & boat rides (optional) ⛵",
-      "8-10 hours of pure adventure 🌟"
-    ]
-  },
-  {
-    title: "Comuna 13 Vibes 🎨",
-    description: "From war zone to art zone - see Medellín's most inspiring transformation story!",
-    price: "$80 USD",
-    icon: Camera,
-    features: [
-      "Electric escalators (world-famous!) 🛗",
-      "Street art & graffiti tour 🎨",
-      "Meet local artists & guides 👨‍🎨",
-      "Hip-hop history & transformation story 🎤",
-      "Souvenir shopping & local snacks 🛍️",
-      "4-5 hours including transport 🕐"
-    ]
-  },
-  {
-    title: "Coffee Farm Adventure ☕",
-    description: "Bean-to-cup experience in Colombia's coffee country - taste the real deal!",
-    price: "$120 USD",
-    icon: Coffee,
-    features: [
-      "Visit authentic coffee finca 🌱",
-      "Learn the full coffee process 👨‍🌾",
-      "Taste freshly roasted beans ☕",
-      "Stunning mountain views 🏔️",
-      "Traditional lunch included 🍽️",
-      "Full day trip (8 hours) 🌅"
-    ]
-  },
-  {
-    title: "Paragliding Thrill 🪂",
-    description: "Fly over Medellín like a bird! Epic views + adrenaline rush = unforgettable",
-    price: "$250 USD",
-    icon: Zap,
-    features: [
-      "Transport to/from San Félix 🚗",
-      "20-30 min flight included 🪂",
-      "Professional pilot & gear ✅",
-      "GoPro photos/videos 📹",
-      "Pre-flight safety briefing 🛡️",
-      "Half day experience (4-5 hours) ⏰"
-    ]
-  },
-  {
-    title: "Pablo History Tour 🕵️",
-    description: "Controversial but curious? See the real story - not glorified, just facts",
-    price: "$90 USD",
-    icon: MapPin,
-    features: [
-      "Monaco building & transformation 🏢",
-      "Inflection Memorial (victims honored) 🕊️",
-      "His final neighborhood 📍",
-      "Historical context (1980s-90s) 📚",
-      "Balanced perspective - not glorification ⚖️",
-      "4-5 hours with local insights 🗣️"
-    ]
-  },
-  {
-    title: "Food & Nightlife 🍻",
-    description: "Eat like a local, party like a local - salsa, drinks, and epic eats!",
-    price: "$100 USD",
-    icon: Music2,
-    features: [
-      "Traditional Colombian dinner 🍽️",
-      "Best salsa bars & clubs 💃",
-      "Safe bar-hopping with local tips 🍺",
-      "Meet other travelers 🌍",
-      "Late night safe rides home 🌙",
-      "5-6 hours of fun (starts 7pm) 🎉"
-    ]
-  },
-  {
-    title: "Multi-Day Chauffeur 🚗",
-    description: "Need a driver for the whole trip? I got you covered for days/weeks!",
-    price: "$150 USD/day",
-    icon: Calendar,
-    features: [
-      "8-12 hours daily convenience 🕐",
-      "Inter-city road trips included 🛣️",
-      "Business meetings & coworking runs 💼",
-      "Shopping sprees & restaurant hopping 🛍️",
-      "Late night safe rides 🌙",
-      "100% flexible schedule 📅"
-    ]
-  }
-];
+const Index = () => {
+  const { t } = useTranslation();
+
+  const services = [
+    {
+      title: t('services.airport.title'),
+      description: t('services.airport.description'),
+      price: t('services.airport.price'),
+      icon: Plane,
+      features: t('services.airport.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.guatape.title'),
+      description: t('services.guatape.description'),
+      price: t('services.guatape.price'),
+      icon: MapPin,
+      features: t('services.guatape.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.comuna13.title'),
+      description: t('services.comuna13.description'),
+      price: t('services.comuna13.price'),
+      icon: Camera,
+      features: t('services.comuna13.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.coffee.title'),
+      description: t('services.coffee.description'),
+      price: t('services.coffee.price'),
+      icon: Coffee,
+      features: t('services.coffee.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.paragliding.title'),
+      description: t('services.paragliding.description'),
+      price: t('services.paragliding.price'),
+      icon: Zap,
+      features: t('services.paragliding.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.pablo.title'),
+      description: t('services.pablo.description'),
+      price: t('services.pablo.price'),
+      icon: MapPin,
+      features: t('services.pablo.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.nightlife.title'),
+      description: t('services.nightlife.description'),
+      price: t('services.nightlife.price'),
+      icon: Music2,
+      features: t('services.nightlife.features', { returnObjects: true }) as string[]
+    },
+    {
+      title: t('services.multiday.title'),
+      description: t('services.multiday.description'),
+      price: t('services.multiday.price'),
+      icon: Calendar,
+      features: t('services.multiday.features', { returnObjects: true }) as string[]
+    }
+  ];
 
 const testimonials = [
   {
@@ -158,7 +108,6 @@ const testimonials = [
   }
 ];
 
-const Index = () => {
   return (
     <div className="min-h-screen bg-background font-sans">
       {/* Header */}
@@ -170,16 +119,18 @@ const Index = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Medellín by Jackie
+                {t('header.title')}
               </h1>
-              <p className="text-xs text-muted-foreground font-handwriting">Your cool local driver 🇨🇴</p>
+              <p className="text-xs text-muted-foreground font-handwriting">{t('header.subtitle')}</p>
             </div>
           </div>
           <div className="hidden md:flex items-center gap-4">
             <SocialBar compact />
-            <WhatsAppButton className="ml-4 hover:rotate-2">Book Now</WhatsAppButton>
+            <LanguageSwitcher />
+            <WhatsAppButton className="ml-4 hover:rotate-2">{t('header.bookNow')}</WhatsAppButton>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher />
             <Button variant="whatsapp" size="sm" className="animate-wiggle">
               <MessageCircle className="w-4 h-4" />
             </Button>
@@ -206,40 +157,39 @@ const Index = () => {
             <div className="text-white animate-slide-up">
               <div className="inline-block mb-4">
                 <span className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white/30">
-                  ✨ Your Medellín Adventure Starts Here
+                  {t('hero.badge')}
                 </span>
               </div>
               <h2 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight font-display">
-                Hey, I'm{" "}
-                <span className="text-secondary font-handwriting text-6xl lg:text-7xl">Jackie!</span>
+                {t('hero.greeting')}{" "}
+                <span className="text-secondary font-handwriting text-6xl lg:text-7xl">{t('hero.name')}</span>
                 <br />
-                Your favorite local driver 🚗💨
+                {t('hero.tagline')}
               </h2>
               <p className="text-xl mb-8 text-white/90 leading-relaxed">
-                Forget boring taxi rides! I'm here to show you the REAL Medellín with style, safety, and way too much fun. 
-                New 2025 car, perfect English, and all the local tea ☕
+                {t('hero.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <WhatsAppButton className="text-lg hover:rotate-2 animate-bounce-in">
-                  Let's Chat! 💬
+                  {t('hero.chatButton')}
                 </WhatsAppButton>
                 <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-105">
                   <Camera className="w-5 h-5 mr-2" />
-                  See Adventures
+                  {t('hero.adventuresButton')}
                 </Button>
               </div>
               <div className="flex items-center gap-6 text-white/80 text-sm">
                 <div className="flex items-center gap-2 animate-slide-up delay-300">
                   <Shield className="w-5 h-5" />
-                  <span>Licensed & Insured ✅</span>
+                  <span>{t('hero.licensed')}</span>
                 </div>
                 <div className="flex items-center gap-2 animate-slide-up delay-500">
                   <Car className="w-5 h-5" />
-                  <span>2025 Ride 🔥</span>
+                  <span>{t('hero.newCar')}</span>
                 </div>
                 <div className="flex items-center gap-2 animate-slide-up delay-700">
                   <Users className="w-5 h-5" />
-                  <span>Bilingual AF 🗣️</span>
+                  <span>{t('hero.bilingual')}</span>
                 </div>
               </div>
             </div>
@@ -258,7 +208,7 @@ const Index = () => {
                   </div>
                   <span className="font-bold text-lg">5.0</span>
                 </div>
-                <p className="text-sm text-muted-foreground font-handwriting">50+ Happy Travelers 🎉</p>
+                <p className="text-sm text-muted-foreground font-handwriting">50+ {t('hero.happyTravelers')}</p>
               </div>
             </div>
           </div>
@@ -271,15 +221,15 @@ const Index = () => {
           <div className="text-center mb-16 animate-slide-up">
             <div className="inline-block mb-4">
               <span className="bg-gradient-primary text-white px-6 py-2 rounded-full text-sm font-semibold shadow-fun">
-                🎯 What I Do Best
+                {t('services.badge')}
               </span>
             </div>
             <h3 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 font-display">
-              Choose Your{" "}
-              <span className="text-secondary font-handwriting">Adventure</span>
+              {t('services.title')}{" "}
+              <span className="text-secondary font-handwriting">{t('services.titleAccent')}</span>
             </h3>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              From airport pickups to epic day trips - I've got your transportation covered with style and good vibes only! 🌟
+              {t('services.subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -299,17 +249,16 @@ const Index = () => {
             <div className="animate-slide-up">
               <div className="inline-block mb-6">
                 <span className="bg-gradient-secondary text-white px-6 py-2 rounded-full text-sm font-semibold shadow-secondary">
-                  👋 Get to Know Me
+                  {t('about.badge')}
                 </span>
               </div>
               <h3 className="text-4xl lg:text-5xl font-bold text-foreground mb-6 font-display">
-                Why Everyone
-                <span className="text-primary font-handwriting text-5xl lg:text-6xl"> Loves </span>
-                Jackie ❤️
+                {t('about.title')}
+                <span className="text-primary font-handwriting text-5xl lg:text-6xl"> {t('about.titleAccent')} </span>
+                {t('about.titleEnd')}
               </h3>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Born and raised in Medellín (so I know ALL the spots 📍), I've been the go-to driver for cool travelers for 5+ years. 
-                Fluent in English and Spanish, always with the best playlist, and committed to making your Colombian adventure absolutely unforgettable! 
+                {t('about.description')}
               </p>
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="flex items-center gap-3 animate-bounce-in">
@@ -317,8 +266,8 @@ const Index = () => {
                     <Users className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold">Perfectly Bilingual</div>
-                    <div className="text-sm text-muted-foreground">English & Spanish 🗣️</div>
+                    <div className="font-bold">{t('about.bilingual')}</div>
+                    <div className="text-sm text-muted-foreground">{t('about.bilingualSub')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 animate-bounce-in delay-200">
@@ -326,8 +275,8 @@ const Index = () => {
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold">5+ Years</div>
-                    <div className="text-sm text-muted-foreground">Making memories ✨</div>
+                    <div className="font-bold">{t('about.experience')}</div>
+                    <div className="text-sm text-muted-foreground">{t('about.experienceSub')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 animate-bounce-in delay-300">
@@ -335,8 +284,8 @@ const Index = () => {
                     <Shield className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold">100% Licensed</div>
-                    <div className="text-sm text-muted-foreground">& Insured ✅</div>
+                    <div className="font-bold">{t('about.licensed')}</div>
+                    <div className="text-sm text-muted-foreground">{t('about.licensedSub')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 animate-bounce-in delay-400">
@@ -344,14 +293,14 @@ const Index = () => {
                     <Car className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold">Brand New 2025</div>
-                    <div className="text-sm text-muted-foreground">Sedan (so fresh) 🔥</div>
+                    <div className="font-bold">{t('about.newCar')}</div>
+                    <div className="text-sm text-muted-foreground">{t('about.newCarSub')}</div>
                   </div>
                 </div>
               </div>
               <div className="text-center lg:text-left animate-slide-up delay-500">
                 <p className="text-muted-foreground mb-4 font-handwriting text-lg">
-                  Follow me for daily Medellín vibes & travel inspo! 📸
+                  {t('about.followText')}
                 </p>
                 <SocialBar />
               </div>
@@ -360,7 +309,7 @@ const Index = () => {
               <Card className="bg-gradient-card border-0 shadow-hover hover:shadow-glow transition-elastic hover:scale-105">
                 <CardHeader>
                   <CardTitle className="text-center text-2xl font-display flex items-center justify-center gap-2">
-                    Why Book Direct? <Sparkles className="w-6 h-6 text-primary" />
+                    {t('about.whyDirect')} <Sparkles className="w-6 h-6 text-primary" />
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -370,8 +319,8 @@ const Index = () => {
                         <div className="w-3 h-3 bg-green-600 rounded-full animate-wiggle" />
                       </div>
                       <div>
-                        <div className="font-bold">Better Prices 💰</div>
-                        <div className="text-sm text-muted-foreground">No sneaky app fees - just honest pricing</div>
+                        <div className="font-bold">{t('about.betterPrices')}</div>
+                        <div className="text-sm text-muted-foreground">{t('about.betterPricesSub')}</div>
                       </div>
                     </li>
                     <li className="flex items-start gap-3 animate-slide-up delay-700">
@@ -379,8 +328,8 @@ const Index = () => {
                         <div className="w-3 h-3 bg-blue-600 rounded-full animate-wiggle" />
                       </div>
                       <div>
-                        <div className="font-bold">Personal Touch 🤝</div>
-                        <div className="text-sm text-muted-foreground">Direct chat with me - customize everything!</div>
+                        <div className="font-bold">{t('about.personalTouch')}</div>
+                        <div className="text-sm text-muted-foreground">{t('about.personalTouchSub')}</div>
                       </div>
                     </li>
                     <li className="flex items-start gap-3 animate-slide-up delay-800">
@@ -388,8 +337,8 @@ const Index = () => {
                         <div className="w-3 h-3 bg-yellow-600 rounded-full animate-wiggle" />
                       </div>
                       <div>
-                        <div className="font-bold">Local Secrets 🗺️</div>
-                        <div className="text-sm text-muted-foreground">Hidden gems that tourists never find</div>
+                        <div className="font-bold">{t('about.localSecrets')}</div>
+                        <div className="text-sm text-muted-foreground">{t('about.localSecretsSub')}</div>
                       </div>
                     </li>
                     <li className="flex items-start gap-3 animate-slide-up delay-900">
@@ -397,8 +346,8 @@ const Index = () => {
                         <div className="w-3 h-3 bg-purple-600 rounded-full animate-wiggle" />
                       </div>
                       <div>
-                        <div className="font-bold">Safety First 🛡️</div>
-                        <div className="text-sm text-muted-foreground">Licensed, trusted by international travelers</div>
+                        <div className="font-bold">{t('about.safetyFirst')}</div>
+                        <div className="text-sm text-muted-foreground">{t('about.safetyFirstSub')}</div>
                       </div>
                     </li>
                   </ul>
@@ -415,16 +364,16 @@ const Index = () => {
           <div className="text-center mb-16 animate-slide-up">
             <div className="inline-block mb-4">
               <span className="bg-gradient-fun text-white px-6 py-2 rounded-full text-sm font-semibold shadow-fun">
-                💬 Real Talk
+                {t('testimonials.badge')}
               </span>
             </div>
             <h3 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 font-display">
-              What My{" "}
-              <span className="text-accent font-handwriting">Travelers</span>
-              {" "}Say
+              {t('testimonials.title')}{" "}
+              <span className="text-accent font-handwriting">{t('testimonials.titleAccent')}</span>
+              {" "}{t('testimonials.titleEnd')}
             </h3>
             <p className="text-xl text-muted-foreground">
-              Don't just take my word for it - here's what awesome people are saying! 🌟
+              {t('testimonials.subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">

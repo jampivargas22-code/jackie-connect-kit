@@ -1,0 +1,185 @@
+{
+  "header": {
+    "title": "Medellín par Jackie",
+    "subtitle": "Votre chauffeur local cool 🇨🇴",
+    "bookNow": "Réserver"
+  },
+  "hero": {
+    "badge": "✨ Votre Aventure à Medellín Commence Ici",
+    "greeting": "Salut, je suis",
+    "name": "Jackie!",
+    "tagline": "Votre chauffeur local préféré 🚗💨",
+    "description": "Oubliez les taxis ennuyeux! Je suis là pour vous montrer le VRAI Medellín avec style, sécurité et beaucoup de fun. Voiture neuve 2025, anglais parfait et tous les bons plans locaux ☕",
+    "chatButton": "Discutons! 💬",
+    "adventuresButton": "Voir Aventures",
+    "licensed": "Licencié et Assuré ✅",
+    "newCar": "Voiture 2025 🔥",
+    "bilingual": "Totalement Bilingue 🗣️",
+    "happyTravelers": "Voyageurs Heureux 🎉"
+  },
+  "services": {
+    "badge": "🎯 Ce Que Je Fais de Mieux",
+    "title": "Choisissez Votre",
+    "titleAccent": "Aventure",
+    "subtitle": "Des transferts aéroport aux excursions épiques d'une journée - j'ai votre transport couvert avec style et seulement de bonnes vibes! 🌟",
+    "airport": {
+      "title": "Transfer Aéroport ✈️",
+      "description": "Plus de transfers douteux! Je serai là avec un grand sourire (et la clim)",
+      "price": "$35-45 USD",
+      "features": [
+        "Suivi de vol (je sais quand vous atterrissez) 📲",
+        "Accueil aux arrivées 👋",
+        "Voiture neuve 2025 (impeccable) ✨",
+        "Parle anglais et espagnol couramment 🗣️",
+        "Prix fixe - pas de tarifs dynamiques 💯"
+      ]
+    },
+    "guatape": {
+      "title": "Magie de Guatapé 🌈",
+      "description": "L'excursion d'une journée iconique! Grimpez El Peñol, explorez la ville colorée, mangez dans des endroits secrets",
+      "price": "$150 USD",
+      "features": [
+        "Transport privé aller-retour (2h chaque trajet) 🚗",
+        "Rocher El Peñol - 740 marches vers le paradis 🏔️",
+        "Ville de zócalos colorés pour photos 📸",
+        "Restaurants locaux cachés (meilleure bandeja!) 🍽️",
+        "Vues sur le lac et promenades en bateau (optionnel) ⛵",
+        "8-10 heures d'aventure pure 🌟"
+      ]
+    },
+    "comuna13": {
+      "title": "Vibes de Comuna 13 🎨",
+      "description": "De zone de guerre à zone d'art - voyez l'histoire de transformation la plus inspirante de Medellín!",
+      "price": "$80 USD",
+      "features": [
+        "Escaliers mécaniques (mondialement célèbres!) 🛗",
+        "Tour d'art de rue et graffiti 🎨",
+        "Rencontrez artistes et guides locaux 👨‍🎨",
+        "Histoire hip-hop et transformation 🎤",
+        "Shopping souvenirs et snacks locaux 🛍️",
+        "4-5 heures incluant transport 🕐"
+      ]
+    },
+    "coffee": {
+      "title": "Aventure Ferme à Café ☕",
+      "description": "Expérience du grain à la tasse dans le pays du café - goûtez le vrai!",
+      "price": "$120 USD",
+      "features": [
+        "Visitez une ferme de café authentique 🌱",
+        "Apprenez tout le processus du café 👨‍🌾",
+        "Goûtez des grains fraîchement torréfiés ☕",
+        "Vues époustouflantes sur les montagnes 🏔️",
+        "Déjeuner traditionnel inclus 🍽️",
+        "Excursion d'une journée complète (8 heures) 🌅"
+      ]
+    },
+    "paragliding": {
+      "title": "Frisson Parapente 🪂",
+      "description": "Volez au-dessus de Medellín comme un oiseau! Vues épiques + adrénaline = inoubliable",
+      "price": "$250 USD",
+      "features": [
+        "Transport de/vers San Félix 🚗",
+        "Vol de 20-30 min inclus 🪂",
+        "Pilote professionnel et équipement ✅",
+        "Photos/vidéos GoPro 📹",
+        "Briefing de sécurité pré-vol 🛡️",
+        "Expérience d'une demi-journée (4-5 heures) ⏰"
+      ]
+    },
+    "pablo": {
+      "title": "Tour Histoire de Pablo 🕵️",
+      "description": "Controversé mais curieux? Voyez la vraie histoire - pas glorifiée, juste des faits",
+      "price": "$90 USD",
+      "features": [
+        "Bâtiment Monaco et transformation 🏢",
+        "Mémorial Inflexion (victimes honorées) 🕊️",
+        "Son quartier final 📍",
+        "Contexte historique (années 80-90) 📚",
+        "Perspective équilibrée - pas de glorification ⚖️",
+        "4-5 heures avec aperçus locaux 🗣️"
+      ]
+    },
+    "nightlife": {
+      "title": "Cuisine et Vie Nocturne 🍻",
+      "description": "Mangez comme un local, faites la fête comme un local - salsa, boissons et cuisine épique!",
+      "price": "$100 USD",
+      "features": [
+        "Dîner colombien traditionnel 🍽️",
+        "Meilleurs bars salsa et clubs 💃",
+        "Tournée des bars sécurisée avec conseils locaux 🍺",
+        "Rencontrez d'autres voyageurs 🌍",
+        "Trajets sécurisés tard le soir 🌙",
+        "5-6 heures de fun (commence à 19h) 🎉"
+      ]
+    },
+    "multiday": {
+      "title": "Chauffeur Multi-Jours 🚗",
+      "description": "Besoin d'un chauffeur pour tout le voyage? Je vous couvre pour des jours/semaines!",
+      "price": "$150 USD/jour",
+      "features": [
+        "8-12 heures de commodité quotidienne 🕐",
+        "Voyages inter-villes inclus 🛣️",
+        "Réunions d'affaires et coworking 💼",
+        "Shopping et sorties restaurant 🛍️",
+        "Trajets nocturnes sécurisés 🌙",
+        "Horaire 100% flexible 📅"
+      ]
+    },
+    "bookButton": "Allons-y! 🚀"
+  },
+  "about": {
+    "badge": "👋 Apprenez à Me Connaître",
+    "title": "Pourquoi Tout Le Monde",
+    "titleAccent": "Aime",
+    "titleEnd": "Jackie ❤️",
+    "description": "Née et élevée à Medellín (je connais TOUS les endroits 📍), je suis le chauffeur préféré des voyageurs cool depuis plus de 5 ans. Fluide en anglais et espagnol, toujours avec la meilleure playlist, et engagée à rendre votre aventure colombienne absolument inoubliable!",
+    "bilingual": "Parfaitement Bilingue",
+    "bilingualSub": "Anglais et Espagnol 🗣️",
+    "experience": "Plus de 5 Ans",
+    "experienceSub": "Créer des souvenirs ✨",
+    "licensed": "100% Licencié",
+    "licensedSub": "et Assuré ✅",
+    "newCar": "Tout Neuf 2025",
+    "newCarSub": "Berline (super frais) 🔥",
+    "followText": "Suivez-moi pour des vibes quotidiennes de Medellín et inspiration voyage! 📸",
+    "whyDirect": "Pourquoi Réserver Direct?",
+    "betterPrices": "Meilleurs Prix 💰",
+    "betterPricesSub": "Pas de frais cachés d'apps - juste des prix honnêtes",
+    "personalTouch": "Touche Personnelle 🤝",
+    "personalTouchSub": "Chat direct avec moi - personnalisez tout!",
+    "localSecrets": "Secrets Locaux 🗺️",
+    "localSecretsSub": "Joyaux cachés que les touristes ne trouvent jamais",
+    "safetyFirst": "Sécurité d'Abord 🛡️",
+    "safetyFirstSub": "Licencié, de confiance pour voyageurs internationaux"
+  },
+  "testimonials": {
+    "badge": "💬 Témoignages Réels",
+    "title": "Ce Que Mes",
+    "titleAccent": "Voyageurs",
+    "titleEnd": "Disent",
+    "subtitle": "Ne me croyez pas sur parole - voici ce que disent des gens géniaux! 🌟"
+  },
+  "cta": {
+    "badge": "🚀 Prêt Pour L'Aventure?",
+    "title": "Faisons Votre",
+    "titleAccent": "Voyage à Medellín",
+    "titleEnd": "Épique!",
+    "description": "Réservez directement avec moi sur WhatsApp - je personnaliserai l'expérience parfaite pour vous. Pas de frais d'app, pas d'intermédiaires, juste des vibes géniales et des souvenirs inoubliables! 🌟",
+    "whatsappButton": "Chat sur WhatsApp 💬",
+    "callButton": "Appeler Jackie 📞"
+  },
+  "footer": {
+    "tagline": "Votre chauffeur bilingue de confiance à Medellín 🇨🇴",
+    "description": "Réservation directe • Voiture neuve 2025 • Transfers aéroport • Tours privés • Chauffeur multi-jours",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "about": "À Propos de Jackie",
+    "contact": "Contact",
+    "legal": "Légal",
+    "terms": "Conditions d'Utilisation",
+    "privacy": "Politique de Confidentialité",
+    "followMe": "Suivez-Moi",
+    "madeWith": "Fait avec",
+    "in": "à Medellín"
+  }
+}
