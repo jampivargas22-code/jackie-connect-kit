@@ -27,7 +27,7 @@ const services = [
   {
     title: "Airport Vibes ✈️",
     description: "No more sketchy airport pickups! I'll be there with a big smile (and AC)",
-    price: "From $35 USD",
+    price: "$35-45 USD",
     icon: Plane,
     features: [
       "Flight tracking (I know when you land) 📲",
@@ -38,29 +38,101 @@ const services = [
     ]
   },
   {
-    title: "City Adventures 🎨",
-    description: "Ready to see the REAL Medellín? Let's explore like locals do!",
-    price: "From $60 USD",
+    title: "Guatapé Magic 🌈",
+    description: "THE iconic day trip! Climb El Peñol rock, explore the colorful town, eat at hidden gem spots",
+    price: "$150 USD",
     icon: MapPin,
     features: [
-      "Comuna 13 street art (Insta-worthy!) 🎨",
-      "Guatapé rock climbing vibes 🏔️",
-      "Coffee farm experiences ☕",
-      "Pablo sites (if you're curious) 🕵️",
-      "Your custom adventure awaits 🗺️"
+      "Private round-trip transport (2hrs each way) 🚗",
+      "El Peñol Rock - 740 steps to heaven 🏔️",
+      "Colorful zócalos town photo ops 📸",
+      "Hidden local restaurants (best bandeja!) 🍽️",
+      "Lakeside views & boat rides (optional) ⛵",
+      "8-10 hours of pure adventure 🌟"
     ]
   },
   {
-    title: "Your Personal Chauffeur 🚗",
-    description: "Need a driver for the whole day/week? I got you covered bestie!",
-    price: "From $150 USD/day",
+    title: "Comuna 13 Vibes 🎨",
+    description: "From war zone to art zone - see Medellín's most inspiring transformation story!",
+    price: "$80 USD",
+    icon: Camera,
+    features: [
+      "Electric escalators (world-famous!) 🛗",
+      "Street art & graffiti tour 🎨",
+      "Meet local artists & guides 👨‍🎨",
+      "Hip-hop history & transformation story 🎤",
+      "Souvenir shopping & local snacks 🛍️",
+      "4-5 hours including transport 🕐"
+    ]
+  },
+  {
+    title: "Coffee Farm Adventure ☕",
+    description: "Bean-to-cup experience in Colombia's coffee country - taste the real deal!",
+    price: "$120 USD",
+    icon: Coffee,
+    features: [
+      "Visit authentic coffee finca 🌱",
+      "Learn the full coffee process 👨‍🌾",
+      "Taste freshly roasted beans ☕",
+      "Stunning mountain views 🏔️",
+      "Traditional lunch included 🍽️",
+      "Full day trip (8 hours) 🌅"
+    ]
+  },
+  {
+    title: "Paragliding Thrill 🪂",
+    description: "Fly over Medellín like a bird! Epic views + adrenaline rush = unforgettable",
+    price: "$250 USD",
+    icon: Zap,
+    features: [
+      "Transport to/from San Félix 🚗",
+      "20-30 min flight included 🪂",
+      "Professional pilot & gear ✅",
+      "GoPro photos/videos 📹",
+      "Pre-flight safety briefing 🛡️",
+      "Half day experience (4-5 hours) ⏰"
+    ]
+  },
+  {
+    title: "Pablo History Tour 🕵️",
+    description: "Controversial but curious? See the real story - not glorified, just facts",
+    price: "$90 USD",
+    icon: MapPin,
+    features: [
+      "Monaco building & transformation 🏢",
+      "Inflection Memorial (victims honored) 🕊️",
+      "His final neighborhood 📍",
+      "Historical context (1980s-90s) 📚",
+      "Balanced perspective - not glorification ⚖️",
+      "4-5 hours with local insights 🗣️"
+    ]
+  },
+  {
+    title: "Food & Nightlife 🍻",
+    description: "Eat like a local, party like a local - salsa, drinks, and epic eats!",
+    price: "$100 USD",
+    icon: Music2,
+    features: [
+      "Traditional Colombian dinner 🍽️",
+      "Best salsa bars & clubs 💃",
+      "Safe bar-hopping with local tips 🍺",
+      "Meet other travelers 🌍",
+      "Late night safe rides home 🌙",
+      "5-6 hours of fun (starts 7pm) 🎉"
+    ]
+  },
+  {
+    title: "Multi-Day Chauffeur 🚗",
+    description: "Need a driver for the whole trip? I got you covered for days/weeks!",
+    price: "$150 USD/day",
     icon: Calendar,
     features: [
-      "8-12 hours of pure convenience 🕐",
+      "8-12 hours daily convenience 🕐",
       "Inter-city road trips included 🛣️",
-      "Shopping sprees & business meetings 🛍️",
-      "Late night safe rides home 🌙",
-      "Totally flexible schedule 📅"
+      "Business meetings & coworking runs 💼",
+      "Shopping sprees & restaurant hopping 🛍️",
+      "Late night safe rides 🌙",
+      "100% flexible schedule 📅"
     ]
   }
 ];
