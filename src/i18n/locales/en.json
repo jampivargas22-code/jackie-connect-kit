@@ -9,7 +9,7 @@
     "greeting": "Hey, I'm",
     "name": "Jackie!",
     "tagline": "Your favorite local driver 🚗💨",
-    "description": "Forget boring taxi rides! I'm here to show you the REAL Medellín with style, safety, and way too much fun. New 2025 car, perfect English, and all the local tea ☕",
+    "description": "Forget boring taxi rides! I'm here to show you the REAL Medellín with style, safety, and way too much fun. New 2025 car, English (working on it!), and all the local tea ☕",
     "chatButton": "Let's Chat! 💬",
     "adventuresButton": "See Adventures",
     "licensed": "Licensed & Insured ✅",
@@ -25,19 +25,44 @@
     "airport": {
       "title": "Airport Vibes ✈️",
       "description": "No more sketchy airport pickups! I'll be there with a big smile (and AC)",
-      "price": "$35-45 USD",
+      "location": "José María Córdova International Airport (MDE) to Medellín",
+      "history": "José María Córdova International Airport, named after a Colombian independence hero, has become Medellín's gateway to the world. As the second busiest airport in Colombia, it connects the city to major international destinations while maintaining that warm paisa hospitality.",
+      "background": "Medellín's airport is strategically located in the nearby municipality of Rionegro, just 45 minutes from the city center. This modern facility handles over 8 million passengers annually and features excellent amenities for both domestic and international travelers.",
+      "whatToExpect": "Your journey begins the moment you step off the plane. I'll be monitoring your flight in real-time and meet you right at the arrivals gate with a personalized sign. We skip the taxi lines and head straight to your accommodation with local insights along the way.",
       "features": [
         "Flight tracking (I know when you land) 📲",
         "Meet & greet at arrivals 👋",
         "Brand new 2025 car (spotless AF) ✨",
         "Speaks fluent English & Spanish 🗣️",
         "Fixed price - no surge nonsense 💯"
+      ],
+      "itinerary": [
+        "Pickup from José María Córdova International Airport (MDE)",
+        "Private transfer to your accommodation in Medellín",
+        "Local insights and recommendations along the way",
+        "Safe arrival at your destination"
+      ],
+      "included": [
+        "Private vehicle with professional driver",
+        "Bilingual chauffeur (English/Spanish)",
+        "Bottled water and light refreshments",
+        "Real-time GPS tracking",
+        "24/7 customer support"
+      ],
+      "highlights": [
+        "Professional chauffeur service",
+        "Modern, air-conditioned vehicle",
+        "Local expert knowledge",
+        "Flexible scheduling"
       ]
     },
     "guatape": {
       "title": "Guatapé Magic 🌈",
       "description": "THE iconic day trip! Climb El Peñol rock, explore the colorful town, eat at hidden gem spots",
-      "price": "$150 USD",
+      "location": "Guatapé, Antioquia",
+      "history": "Guatapé's story begins with the creation of the Peñol-Guatapé reservoir in the 1970s, which flooded the original town and created the stunning landscape we see today. The iconic El Peñol rock, standing at 220 meters (722 feet), has been a sacred site for indigenous peoples and later became a symbol of Colombian natural beauty.",
+      "background": "Located just 2 hours from Medellín, Guatapé is famous for its colorful colonial architecture (zócalos) that decorate the buildings with vibrant murals depicting local legends and history. The town sits at the edge of a massive reservoir that provides breathtaking views and recreational activities.",
+      "whatToExpect": "This isn't just a day trip - it's an immersion into Antioquian culture. You'll climb 740 steps to panoramic views that stretch for miles, explore a town where every building tells a story, and enjoy authentic Colombian cuisine at family-run restaurants that have been serving locals for generations.",
       "features": [
         "Private round-trip transport (2hrs each way) 🚗",
         "El Peñol Rock - 740 steps to heaven 🏔️",
@@ -45,12 +70,39 @@
         "Hidden local restaurants (best bandeja!) 🍽️",
         "Lakeside views & boat rides (optional) ⛵",
         "8-10 hours of pure adventure 🌟"
+      ],
+      "itinerary": [
+        "Early morning pickup from Medellín",
+        "Scenic drive to Guatapé (2 hours)",
+        "Boat ride on the reservoir",
+        "Climb to the top of El Peñol rock (740 steps)",
+        "Explore Guatapé town and local markets",
+        "Traditional lunch with local specialties",
+        "Return to Medellín in the evening"
+      ],
+      "included": [
+        "Round-trip transportation",
+        "Boat ride on the reservoir",
+        "Entrance to El Peñol rock",
+        "Traditional lunch",
+        "Bilingual guide",
+        "Bottled water and snacks"
+      ],
+      "highlights": [
+        "Stunning panoramic views",
+        "Historic rock climb",
+        "Colorful colonial architecture",
+        "Fresh local cuisine",
+        "Photography opportunities"
       ]
     },
     "comuna13": {
       "title": "Comuna 13 Vibes 🎨",
       "description": "From war zone to art zone - see Medellín's most inspiring transformation story!",
-      "price": "$80 USD",
+      "location": "Comuna 13, Medellín",
+      "history": "Comuna 13's transformation from one of Colombia's most dangerous neighborhoods in the 1990s to a vibrant cultural hub is nothing short of miraculous. Once plagued by violence and poverty, the area became a symbol of hope when the city invested in infrastructure, education, and community programs. The electric escalators, installed in 2011, became a physical and metaphorical bridge to a better future.",
+      "background": "This hillside neighborhood, home to over 150,000 people, is now a UNESCO City of Design candidate and a global example of urban regeneration. The street art that covers the walls tells stories of struggle, resilience, and triumph, while the electric escalators (the longest in the world at 1,260 feet) provide both practical transportation and panoramic views of the city.",
+      "whatToExpect": "This isn't just a tour - it's a journey through human spirit and urban innovation. You'll ride the world's longest electric escalator system, meet local artists who turn pain into beauty, and hear stories that will change how you see transformation. The hip-hop culture here is authentic, born from the streets and shaped by survival.",
       "features": [
         "Electric escalators (world-famous!) 🛗",
         "Street art & graffiti tour 🎨",
@@ -58,12 +110,39 @@
         "Hip-hop history & transformation story 🎤",
         "Souvenir shopping & local snacks 🛍️",
         "4-5 hours including transport 🕐"
+      ],
+      "itinerary": [
+        "Pickup from your accommodation",
+        "Visit to the Graffiti Alley",
+        "Electric escalator ride for panoramic views",
+        "Local artisan workshops",
+        "Street food tasting",
+        "Cultural center visit",
+        "Return to your accommodation"
+      ],
+      "included": [
+        "Transportation and guide",
+        "Electric escalator tickets",
+        "Local artisan interactions",
+        "Street food samples",
+        "Photography guide",
+        "Cultural insights"
+      ],
+      "highlights": [
+        "World-famous street art",
+        "Urban transformation story",
+        "Local entrepreneurship",
+        "Electric escalator experience",
+        "Cultural immersion"
       ]
     },
     "coffee": {
       "title": "Coffee Farm Adventure ☕",
       "description": "Bean-to-cup experience in Colombia's coffee country - taste the real deal!",
-      "price": "$120 USD",
+      "location": "Coffee Axis Region",
+      "history": "Colombia produces some of the world's finest coffee, and the Coffee Axis (Eje Cafetero) has been the heart of this tradition since the late 19th century. Coffee cultivation arrived with Spanish colonists but flourished under the entrepreneurial spirit of Antioquian settlers who transformed the region's volcanic soil into a global commodity. Today, over 500,000 families depend on coffee cultivation in Colombia.",
+      "background": "The Coffee Axis comprises the departments of Caldas, Quindío, Risaralda, and northern Valle del Cauca. This region produces over 15% of Colombia's coffee and is home to the famous Cocora Valley, wax palms, and colonial architecture. The traditional coffee-growing methods passed down through generations create beans with exceptional flavor profiles.",
+      "whatToExpect": "This isn't just a coffee tour - it's a journey into the soul of Colombian culture. You'll witness the entire process from cherry to cup, learn about sustainable farming practices, and taste coffees that have won international awards. The farm-to-table lunch featuring local ingredients will complete your authentic paisa experience.",
       "features": [
         "Visit authentic coffee finca 🌱",
         "Learn the full coffee process 👨‍🌾",
@@ -71,12 +150,39 @@
         "Stunning mountain views 🏔️",
         "Traditional lunch included 🍽️",
         "Full day trip (8 hours) 🌅"
+      ],
+      "itinerary": [
+        "Morning pickup from Medellín",
+        "Drive to coffee region (2-3 hours)",
+        "Visit working coffee farm",
+        "Coffee production demonstration",
+        "Traditional coffee tasting",
+        "Farm-to-table lunch",
+        "Return to Medellín"
+      ],
+      "included": [
+        "Round-trip transportation",
+        "Coffee farm tour",
+        "Production demonstration",
+        "Multiple coffee tastings",
+        "Traditional lunch",
+        "Bilingual guide"
+      ],
+      "highlights": [
+        "Authentic coffee experience",
+        "Working farm visit",
+        "Taste-testing session",
+        "Cultural immersion",
+        "Sustainable agriculture"
       ]
     },
     "paragliding": {
       "title": "Paragliding Thrill 🪂",
       "description": "Fly over Medellín like a bird! Epic views + adrenaline rush = unforgettable",
-      "price": "$250 USD",
+      "location": "Medellín Paragliding Sites",
+      "history": "Paragliding arrived in Colombia in the 1980s and quickly became popular in the Andean regions due to the perfect combination of thermal winds and stunning landscapes. Medellín's proximity to the Andes mountains created ideal conditions for this adventure sport, and today the city hosts international paragliding competitions and training camps.",
+      "background": "The paragliding sites around Medellín, particularly in the towns of San Félix and San Jerónimo, offer some of the best conditions in Colombia. The thermal updrafts from the surrounding mountains allow for extended flights, and the views of the Aburrá Valley from above are simply spectacular. Professional pilots certified by the Colombian Aeronautical Authority ensure safety and quality.",
+      "whatToExpect": "This isn't just a thrill ride - it's a transformative experience that will change how you see Medellín. You'll launch from a mountain peak and soar over the city, feeling the freedom of flight while taking in panoramic views that few people ever experience. The professional GoPro footage captures your reactions and the breathtaking scenery.",
       "features": [
         "Transport to/from San Félix 🚗",
         "20-30 min flight included 🪂",
@@ -84,12 +190,38 @@
         "GoPro photos/videos 📹",
         "Pre-flight safety briefing 🛡️",
         "Half day experience (4-5 hours) ⏰"
+      ],
+      "itinerary": [
+        "Pickup from your accommodation",
+        "Drive to paragliding site",
+        "Safety briefing and equipment fitting",
+        "Tandem paragliding flight",
+        "Professional photography",
+        "Return transportation"
+      ],
+      "included": [
+        "Transportation to/from site",
+        "Professional instructor",
+        "Safety equipment",
+        "Flight time (15-20 minutes)",
+        "Professional photos",
+        "Certificate of completion"
+      ],
+      "highlights": [
+        "Breathtaking aerial views",
+        "Professional instruction",
+        "Adrenaline rush",
+        "Memorable experience",
+        "Safety first approach"
       ]
     },
     "pablo": {
       "title": "Pablo History Tour 🕵️",
       "description": "Controversial but curious? See the real story - not glorified, just facts",
-      "price": "$90 USD",
+      "location": "Medellín Historic Sites",
+      "history": "Pablo Escobar's rise from a small-time smuggler to the billionaire head of the Medellín Cartel in the 1980s shaped Colombia's modern history. His violent reign of terror claimed thousands of lives and destabilized the nation, but his death in 1993 marked the beginning of a long road to recovery. Today, Medellín uses these dark chapters as teaching moments about transformation and resilience.",
+      "background": "The tour focuses on Escobar's impact on Medellín rather than glorifying his criminal empire. You'll visit sites like the Monaco building (once his luxury apartment complex), the Inflection Memorial (honoring his victims), and La Catedral prison (his self-designed 'luxury jail'). The emphasis is on understanding how the city healed and transformed after his era.",
+      "whatToExpect": "This tour provides a balanced, educational perspective on one of history's most notorious figures. You'll hear stories from locals who lived through the era, visit sites that have been repurposed for community benefit, and understand how Medellín became a model of urban innovation despite its traumatic past. It's history told with respect for the victims and admiration for the city's recovery.",
       "features": [
         "Monaco building & transformation 🏢",
         "Inflection Memorial (victims honored) 🕊️",
@@ -97,12 +229,38 @@
         "Historical context (1980s-90s) 📚",
         "Balanced perspective - not glorification ⚖️",
         "4-5 hours with local insights 🗣️"
+      ],
+      "itinerary": [
+        "Pickup from your accommodation",
+        "Visit to Monaco building",
+        "La Catedral prison tour",
+        "Historical sites exploration",
+        "Local insights and stories",
+        "Return to accommodation"
+      ],
+      "included": [
+        "Transportation and guide",
+        "Entrance fees",
+        "Historical context",
+        "Local expert knowledge",
+        "Photography opportunities",
+        "Cultural insights"
+      ],
+      "highlights": [
+        "Historical significance",
+        "Urban transformation",
+        "Local stories and insights",
+        "Architectural landmarks",
+        "Educational experience"
       ]
     },
     "nightlife": {
       "title": "Food & Nightlife 🍻",
       "description": "Eat like a local, party like a local - salsa, drinks, and epic eats!",
-      "price": "$100 USD",
+      "location": "Medellín Nightlife Districts",
+      "history": "Medellín's nightlife renaissance began in the early 2000s as the city transformed from its dark past into a vibrant cultural hub. The Parque Lleras district became the epicenter of this revolution, attracting artists, entrepreneurs, and party-goers from around the world. Today, Medellín is known for its safe, diverse nightlife that blends traditional Colombian culture with modern trends.",
+      "background": "From the sophisticated wine bars of El Poblado to the energetic salsa clubs of La Playa, Medellín offers a nightlife experience for every taste. The city's young population and entrepreneurial spirit have created unique venues that range from rooftop bars with panoramic city views to underground clubs featuring local DJs and live music. Safety is paramount, with well-lit streets and a culture of respect.",
+      "whatToExpect": "This isn't just a night out - it's an authentic immersion into paisa culture after dark. You'll start with a traditional Colombian dinner featuring regional specialties, then move through carefully selected venues where the energy is electric but the vibe is welcoming. Whether you're dancing salsa, enjoying craft cocktails, or just soaking in the atmosphere, you'll experience Medellín's famous friendliness.",
       "features": [
         "Traditional Colombian dinner 🍽️",
         "Best salsa bars & clubs 💃",
@@ -110,12 +268,38 @@
         "Meet other travelers 🌍",
         "Late night safe rides home 🌙",
         "5-6 hours of fun (starts 7pm) 🎉"
+      ],
+      "itinerary": [
+        "Pickup from your accommodation",
+        "Visit to popular bars and clubs",
+        "Rooftop bar experience",
+        "Live music venues",
+        "Local food and drink tasting",
+        "Safe return transportation"
+      ],
+      "included": [
+        "Transportation throughout the night",
+        "VIP access to venues",
+        "Local expert recommendations",
+        "Safety and security",
+        "Bilingual assistance",
+        "Emergency support"
+      ],
+      "highlights": [
+        "Vibrant nightlife scene",
+        "Cultural immersion",
+        "Local music and dance",
+        "Safe exploration",
+        "Authentic experiences"
       ]
     },
     "multiday": {
       "title": "Multi-Day Chauffeur 🚗",
       "description": "Need a driver for the whole trip? I got you covered for days/weeks!",
-      "price": "$150 USD/day",
+      "location": "Multiple destinations in Colombia",
+      "history": "Colombia is a country of incredible diversity, from the Caribbean coast to the Andean highlands, the Amazon rainforest to the Pacific beaches. Multi-day journeys have been part of Colombian culture since pre-Columbian times when indigenous peoples traveled extensive trade routes. Today, these journeys allow visitors to experience the country's rich tapestry of cultures, landscapes, and histories.",
+      "background": "A multi-day chauffeur service with me means experiencing Colombia like a local VIP. Whether you're traveling between major cities, exploring coffee regions, visiting coastal areas, or combining urban adventures with nature escapes, I handle all the logistics so you can focus on creating memories. My knowledge of the country's roads, weather patterns, and local customs ensures a smooth journey.",
+      "whatToExpect": "This is Colombia on your terms. We can design itineraries that mix cultural experiences, adventure activities, relaxation, and culinary discoveries. From business travel between Bogotá and Medellín to family explorations of the Coffee Axis, every journey is customized to your interests, pace, and comfort level. You'll travel with someone who knows the best routes, the hidden gems, and how to make every moment count.",
       "features": [
         "8-12 hours daily convenience 🕐",
         "Inter-city road trips included 🛣️",
@@ -123,6 +307,29 @@
         "Shopping sprees & restaurant hopping 🛍️",
         "Late night safe rides 🌙",
         "100% flexible schedule 📅"
+      ],
+      "itinerary": [
+        "Customized multi-day itinerary",
+        "Combination of urban and nature experiences",
+        "Cultural immersion activities",
+        "Local accommodation arrangements",
+        "Transportation between destinations",
+        "Personalized experiences"
+      ],
+      "included": [
+        "All transportation",
+        "Accommodation arrangements",
+        "Guided tours and activities",
+        "Meals as specified",
+        "24/7 support",
+        "Flexible scheduling"
+      ],
+      "highlights": [
+        "Comprehensive exploration",
+        "Cultural diversity",
+        "Natural beauty",
+        "Personalized service",
+        "Memorable experiences"
       ]
     },
     "bookButton": "Let's Do This! 🚀"
@@ -181,5 +388,11 @@
     "followMe": "Follow Me",
     "madeWith": "Made with",
     "in": "in Medellín"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oops! Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "returnHome": "Return to Home"
   }
 }

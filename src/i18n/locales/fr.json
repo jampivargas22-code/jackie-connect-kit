@@ -9,7 +9,7 @@
     "greeting": "Salut, je suis",
     "name": "Jackie!",
     "tagline": "Votre chauffeur local préféré 🚗💨",
-    "description": "Oubliez les taxis ennuyeux! Je suis là pour vous montrer le VRAI Medellín avec style, sécurité et beaucoup de fun. Voiture neuve 2025, anglais parfait et tous les bons plans locaux ☕",
+    "description": "Oubliez les taxis ennuyeux! Je suis là pour vous montrer le VRAI Medellín avec style, sécurité et beaucoup de fun. Voiture neuve 2025, anglais (en apprentissage!), et tous les bons plans locaux ☕",
     "chatButton": "Discutons! 💬",
     "adventuresButton": "Voir Aventures",
     "licensed": "Licencié et Assuré ✅",
@@ -25,19 +25,38 @@
     "airport": {
       "title": "Transfer Aéroport ✈️",
       "description": "Plus de transfers douteux! Je serai là avec un grand sourire (et la clim)",
-      "price": "$35-45 USD",
+      "location": "Aéroport International José María Córdova (MDE) vers Medellín",
       "features": [
         "Suivi de vol (je sais quand vous atterrissez) 📲",
         "Accueil aux arrivées 👋",
         "Voiture neuve 2025 (impeccable) ✨",
         "Parle anglais et espagnol couramment 🗣️",
         "Prix fixe - pas de tarifs dynamiques 💯"
+      ],
+      "itinerary": [
+        "Ramassage à l'aéroport international José María Córdova (MDE)",
+        "Transfert privé vers votre hébergement à Medellín",
+        "Conseils et recommandations locaux en chemin",
+        "Arrivée sécurisée à destination"
+      ],
+      "included": [
+        "Véhicule privé avec chauffeur professionnel",
+        "Chauffeur bilingue (anglais/espagnol)",
+        "Eau en bouteille et rafraîchissements légers",
+        "Suivi GPS en temps réel",
+        "Support client 24/7"
+      ],
+      "highlights": [
+        "Service de chauffeur professionnel",
+        "Véhicule moderne climatisé",
+        "Connaissances d'expert local",
+        "Planification flexible"
       ]
     },
     "guatape": {
       "title": "Magie de Guatapé 🌈",
       "description": "L'excursion d'une journée iconique! Grimpez El Peñol, explorez la ville colorée, mangez dans des endroits secrets",
-      "price": "$150 USD",
+      "location": "Guatapé, Antioquia",
       "features": [
         "Transport privé aller-retour (2h chaque trajet) 🚗",
         "Rocher El Peñol - 740 marches vers le paradis 🏔️",
@@ -45,12 +64,36 @@
         "Restaurants locaux cachés (meilleure bandeja!) 🍽️",
         "Vues sur le lac et promenades en bateau (optionnel) ⛵",
         "8-10 heures d'aventure pure 🌟"
+      ],
+      "itinerary": [
+        "Ramassage matinal à Medellín",
+        "Route pittoresque vers Guatapé (2 heures)",
+        "Promenade en bateau sur le réservoir",
+        "Grimpez au sommet du rocher El Peñol (740 marches)",
+        "Explorez la ville de Guatapé et les marchés locaux",
+        "Déjeuner traditionnel avec spécialités locales",
+        "Retour à Medellín en soirée"
+      ],
+      "included": [
+        "Transport aller-retour",
+        "Promenade en bateau sur le réservoir",
+        "Entrée au rocher El Peñol",
+        "Déjeuner traditionnel",
+        "Guide bilingue",
+        "Eau en bouteille et collations"
+      ],
+      "highlights": [
+        "Vues panoramiques à couper le souffle",
+        "Escalade historique du rocher",
+        "Architecture coloniale colorée",
+        "Cuisine locale fraîche",
+        "Opportunités photographiques"
       ]
     },
     "comuna13": {
       "title": "Vibes de Comuna 13 🎨",
       "description": "De zone de guerre à zone d'art - voyez l'histoire de transformation la plus inspirante de Medellín!",
-      "price": "$80 USD",
+      "location": "Comuna 13, Medellín",
       "features": [
         "Escaliers mécaniques (mondialement célèbres!) 🛗",
         "Tour d'art de rue et graffiti 🎨",
@@ -58,12 +101,36 @@
         "Histoire hip-hop et transformation 🎤",
         "Shopping souvenirs et snacks locaux 🛍️",
         "4-5 heures incluant transport 🕐"
+      ],
+      "itinerary": [
+        "Ramassage à votre hébergement",
+        "Visite de l'allée des graffitis",
+        "Balade en escaliers mécaniques pour vues panoramiques",
+        "Ateliers d'artisans locaux",
+        "Dégustation de street food",
+        "Visite du centre culturel",
+        "Retour à votre hébergement"
+      ],
+      "included": [
+        "Transport et guide",
+        "Billets d'escaliers mécaniques",
+        "Interactions avec artisans locaux",
+        "Échantillons de street food",
+        "Guide photo",
+        "Aperçus culturels"
+      ],
+      "highlights": [
+        "Art de rue mondialement célèbre",
+        "Histoire de transformation urbaine",
+        "Entrepreneuriat local",
+        "Expérience des escaliers mécaniques",
+        "Immersion culturelle"
       ]
     },
     "coffee": {
       "title": "Aventure Ferme à Café ☕",
       "description": "Expérience du grain à la tasse dans le pays du café - goûtez le vrai!",
-      "price": "$120 USD",
+      "location": "Région de l'axe caféier",
       "features": [
         "Visitez une ferme de café authentique 🌱",
         "Apprenez tout le processus du café 👨‍🌾",
@@ -71,12 +138,36 @@
         "Vues époustouflantes sur les montagnes 🏔️",
         "Déjeuner traditionnel inclus 🍽️",
         "Excursion d'une journée complète (8 heures) 🌅"
+      ],
+      "itinerary": [
+        "Ramassage matinal à Medellín",
+        "Route vers la région caféière (2-3 heures)",
+        "Visite d'une ferme de café en activité",
+        "Démonstration du processus de production du café",
+        "Dégustation traditionnelle de café",
+        "Déjeuner de la ferme à l'assiette",
+        "Retour à Medellín"
+      ],
+      "included": [
+        "Transport aller-retour",
+        "Visite de la ferme de café",
+        "Démonstration de production",
+        "Multiples dégustations de café",
+        "Déjeuner traditionnel",
+        "Guide bilingue"
+      ],
+      "highlights": [
+        "Expérience café authentique",
+        "Visite de ferme en activité",
+        "Session de dégustation",
+        "Immersion culturelle",
+        "Agriculture durable"
       ]
     },
     "paragliding": {
       "title": "Frisson Parapente 🪂",
       "description": "Volez au-dessus de Medellín comme un oiseau! Vues épiques + adrénaline = inoubliable",
-      "price": "$250 USD",
+      "location": "Sites de parapente de Medellín",
       "features": [
         "Transport de/vers San Félix 🚗",
         "Vol de 20-30 min inclus 🪂",
@@ -84,12 +175,35 @@
         "Photos/vidéos GoPro 📹",
         "Briefing de sécurité pré-vol 🛡️",
         "Expérience d'une demi-journée (4-5 heures) ⏰"
+      ],
+      "itinerary": [
+        "Ramassage à votre hébergement",
+        "Route vers le site de parapente",
+        "Briefing de sécurité et ajustement d'équipement",
+        "Vol en tandem de parapente",
+        "Photographie professionnelle",
+        "Transport de retour"
+      ],
+      "included": [
+        "Transport vers/du site",
+        "Instructeur professionnel",
+        "Équipement de sécurité",
+        "Temps de vol (15-20 minutes)",
+        "Photos professionnelles",
+        "Certificat d'achèvement"
+      ],
+      "highlights": [
+        "Vues aériennes à couper le souffle",
+        "Instruction professionnelle",
+        "Poussée d'adrénaline",
+        "Expérience mémorable",
+        "Approche sécurité d'abord"
       ]
     },
     "pablo": {
       "title": "Tour Histoire de Pablo 🕵️",
       "description": "Controversé mais curieux? Voyez la vraie histoire - pas glorifiée, juste des faits",
-      "price": "$90 USD",
+      "location": "Sites historiques de Medellín",
       "features": [
         "Bâtiment Monaco et transformation 🏢",
         "Mémorial Inflexion (victimes honorées) 🕊️",
@@ -97,12 +211,35 @@
         "Contexte historique (années 80-90) 📚",
         "Perspective équilibrée - pas de glorification ⚖️",
         "4-5 heures avec aperçus locaux 🗣️"
+      ],
+      "itinerary": [
+        "Ramassage à votre hébergement",
+        "Visite du bâtiment Monaco",
+        "Tour de la prison La Catedral",
+        "Exploration des sites historiques",
+        "Aperçus et histoires locaux",
+        "Retour à votre hébergement"
+      ],
+      "included": [
+        "Transport et guide",
+        "Frais d'entrée",
+        "Contexte historique",
+        "Connaissances d'expert local",
+        "Opportunités photographiques",
+        "Aperçus culturels"
+      ],
+      "highlights": [
+        "Signification historique",
+        "Histoire de transformation urbaine",
+        "Histoires et aperçus locaux",
+        "Monuments architecturaux",
+        "Expérience éducative"
       ]
     },
     "nightlife": {
       "title": "Cuisine et Vie Nocturne 🍻",
       "description": "Mangez comme un local, faites la fête comme un local - salsa, boissons et cuisine épique!",
-      "price": "$100 USD",
+      "location": "Quartiers nocturnes de Medellín",
       "features": [
         "Dîner colombien traditionnel 🍽️",
         "Meilleurs bars salsa et clubs 💃",
@@ -110,12 +247,35 @@
         "Rencontrez d'autres voyageurs 🌍",
         "Trajets sécurisés tard le soir 🌙",
         "5-6 heures de fun (commence à 19h) 🎉"
+      ],
+      "itinerary": [
+        "Ramassage à votre hébergement",
+        "Visite des bars et clubs populaires",
+        "Expérience rooftop bar",
+        "Salles de musique live",
+        "Dégustation de nourriture et boissons locales",
+        "Transport sécurisé de retour"
+      ],
+      "included": [
+        "Transport toute la nuit",
+        "Accès VIP aux établissements",
+        "Recommandations d'expert local",
+        "Sécurité et protection",
+        "Assistance bilingue",
+        "Support d'urgence"
+      ],
+      "highlights": [
+        "Scène nocturne vibrante",
+        "Immersion culturelle",
+        "Musique et danse locales",
+        "Exploration sécurisée",
+        "Expériences authentiques"
       ]
     },
     "multiday": {
       "title": "Chauffeur Multi-Jours 🚗",
       "description": "Besoin d'un chauffeur pour tout le voyage? Je vous couvre pour des jours/semaines!",
-      "price": "$150 USD/jour",
+      "location": "Destinations multiples en Colombie",
       "features": [
         "8-12 heures de commodité quotidienne 🕐",
         "Voyages inter-villes inclus 🛣️",
@@ -123,6 +283,29 @@
         "Shopping et sorties restaurant 🛍️",
         "Trajets nocturnes sécurisés 🌙",
         "Horaire 100% flexible 📅"
+      ],
+      "itinerary": [
+        "Itinéraire personnalisé multi-jours",
+        "Combinaison d'expériences urbaines et naturelles",
+        "Activités d'immersion culturelle",
+        "Arrangements d'hébergement locaux",
+        "Transport entre destinations",
+        "Expériences personnalisées"
+      ],
+      "included": [
+        "Tout le transport",
+        "Arrangements d'hébergement",
+        "Visites guidées et activités",
+        "Repas selon spécification",
+        "Support 24/7",
+        "Planification flexible"
+      ],
+      "highlights": [
+        "Exploration complète",
+        "Diversité culturelle",
+        "Beauté naturelle",
+        "Service personnalisé",
+        "Expériences mémorables"
       ]
     },
     "bookButton": "Allons-y! 🚀"
@@ -181,5 +364,11 @@
     "followMe": "Suivez-Moi",
     "madeWith": "Fait avec",
     "in": "à Medellín"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oups ! Page non trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "returnHome": "Retour à l'Accueil"
   }
 }

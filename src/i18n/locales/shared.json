@@ -1,0 +1,84 @@
+{
+  "services": {
+    "airport": {
+      "price": "$35-45 USD",
+      "duration": "2-3 hours",
+      "groupSize": "1-4 people",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "guatape": {
+      "price": "$150 USD",
+      "duration": "Full day (8-10 hours)",
+      "groupSize": "1-6 people",
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "comuna13": {
+      "price": "$80 USD",
+      "duration": "4-5 hours",
+      "groupSize": "1-8 people",
+      "images": [
+        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "coffee": {
+      "price": "$120 USD",
+      "duration": "Full day (8 hours)",
+      "groupSize": "1-6 people",
+      "images": [
+        "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "paragliding": {
+      "price": "$250 USD",
+      "duration": "3-4 hours",
+      "groupSize": "1-2 people",
+      "images": [
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "pablo": {
+      "price": "$90 USD",
+      "duration": "4-5 hours",
+      "groupSize": "1-8 people",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "nightlife": {
+      "price": "$100 USD",
+      "duration": "4-6 hours",
+      "groupSize": "1-6 people",
+      "images": [
+        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center"
+      ]
+    },
+    "multiday": {
+      "price": "$150 USD/day",
+      "duration": "3-7 days",
+      "groupSize": "1-6 people",
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+      ]
+    }
+  }
+}

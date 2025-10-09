@@ -4,6 +4,8 @@ import { ServiceCard } from "@/components/ServiceCard";
 import { SocialBar, WhatsAppButton } from "@/components/SocialBar";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
+import sharedData from '@/i18n/locales/shared.json';
 import { 
   Plane, 
   MapPin, 
@@ -27,62 +29,71 @@ import heroImage from "@/assets/hero-jackie-medellin.jpg";
 
 const Index = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const services = [
     {
+      id: 'airport',
       title: t('services.airport.title'),
       description: t('services.airport.description'),
-      price: t('services.airport.price'),
-      icon: Plane,
+      price: sharedData.services.airport.price,
+      image: sharedData.services.airport.images[0],
       features: t('services.airport.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'guatape',
       title: t('services.guatape.title'),
       description: t('services.guatape.description'),
-      price: t('services.guatape.price'),
-      icon: MapPin,
+      price: sharedData.services.guatape.price,
+      image: sharedData.services.guatape.images[0],
       features: t('services.guatape.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'comuna13',
       title: t('services.comuna13.title'),
       description: t('services.comuna13.description'),
-      price: t('services.comuna13.price'),
-      icon: Camera,
+      price: sharedData.services.comuna13.price,
+      image: sharedData.services.comuna13.images[0],
       features: t('services.comuna13.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'coffee',
       title: t('services.coffee.title'),
       description: t('services.coffee.description'),
-      price: t('services.coffee.price'),
-      icon: Coffee,
+      price: sharedData.services.coffee.price,
+      image: sharedData.services.coffee.images[0],
       features: t('services.coffee.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'paragliding',
       title: t('services.paragliding.title'),
       description: t('services.paragliding.description'),
-      price: t('services.paragliding.price'),
-      icon: Zap,
+      price: sharedData.services.paragliding.price,
+      image: sharedData.services.paragliding.images[0],
       features: t('services.paragliding.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'pablo',
       title: t('services.pablo.title'),
       description: t('services.pablo.description'),
-      price: t('services.pablo.price'),
-      icon: MapPin,
+      price: sharedData.services.pablo.price,
+      image: sharedData.services.pablo.images[0],
       features: t('services.pablo.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'nightlife',
       title: t('services.nightlife.title'),
       description: t('services.nightlife.description'),
-      price: t('services.nightlife.price'),
-      icon: Music2,
+      price: sharedData.services.nightlife.price,
+      image: sharedData.services.nightlife.images[0],
       features: t('services.nightlife.features', { returnObjects: true }) as string[]
     },
     {
+      id: 'multiday',
       title: t('services.multiday.title'),
       description: t('services.multiday.description'),
-      price: t('services.multiday.price'),
-      icon: Calendar,
+      price: sharedData.services.multiday.price,
+      image: sharedData.services.multiday.images[0],
       features: t('services.multiday.features', { returnObjects: true }) as string[]
     }
   ];
@@ -235,7 +246,10 @@ const testimonials = [
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div key={index} className="animate-slide-up" style={{animationDelay: `${index * 0.2}s`}}>
-                <ServiceCard {...service} />
+                <ServiceCard 
+                  {...service} 
+                  onClick={() => navigate(`/tour/${service.id}`)}
+                />
               </div>
             ))}
           </div>
