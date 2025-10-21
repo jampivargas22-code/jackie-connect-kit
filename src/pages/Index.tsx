@@ -138,7 +138,9 @@ const testimonials = [
           <div className="hidden md:flex items-center gap-4">
             <SocialBar compact />
             <LanguageSwitcher />
-            <WhatsAppButton className="ml-4 hover:rotate-2">{t('header.bookNow')}</WhatsAppButton>
+            <WhatsAppButton className="ml-4 hover:rotate-2" onClick={() => {
+              document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+            }}>{t('header.bookNow')}</WhatsAppButton>
           </div>
           <div className="md:hidden flex items-center gap-2">
             <LanguageSwitcher />
@@ -227,7 +229,7 @@ const testimonials = [
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-subtle">
+      <section id="services" className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-slide-up">
             <div className="inline-block mb-4">

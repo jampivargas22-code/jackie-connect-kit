@@ -2,8 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Sparkles } from "lucide-react";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 interface ServiceCardProps {
+  id: string;
   title: string;
   description: string;
   price: string;
@@ -13,8 +15,14 @@ interface ServiceCardProps {
   onClick?: () => void;
 }
 
-export function ServiceCard({ title, description, price, image, features, className = "", onClick }: ServiceCardProps) {
+export function ServiceCard({ id, title, description, price, image, features, className = "", onClick }: ServiceCardProps) {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleBookClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent card click
+    navigate(`/checkout?service=${id}&name=${encodeURIComponent(title)}`);
+  };
   
   return (
     <Card className={`group relative overflow-hidden bg-gradient-card border-0 shadow-hover hover:shadow-glow transition-elastic hover:-translate-y-2 hover:scale-105 cursor-pointer ${className}`} onClick={onClick}>
@@ -46,8 +54,8 @@ export function ServiceCard({ title, description, price, image, features, classN
             </li>
           ))}
         </ul>
-        <Button variant="fun" size="lg" className="w-full group-hover:scale-105">
-          {t('services.bookButton')}
+        <Button variant="fun" size="lg" className="w-full group-hover:scale-105" onClick={handleBookClick}>
+          Let's Do This! 🚀
         </Button>
       </CardContent>
       
