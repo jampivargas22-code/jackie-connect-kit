@@ -14,7 +14,7 @@
     "adventuresButton": "See Adventures",
     "licensed": "Licensed & Insured ✅",
     "newCar": "2025 Ride 🔥",
-    "bilingual": "Bilingual AF 🗣️",
+    "bilingual": "Great Communication 🗣️",
     "happyTravelers": "Happy Travelers 🎉"
   },
   "services": {
@@ -44,7 +44,7 @@
       ],
       "included": [
         "Private vehicle with professional driver",
-        "Bilingual chauffeur (English/Spanish)",
+        "Speaks fluent English & Spanish 🗣️",
         "Bottled water and light refreshments",
         "Real-time GPS tracking",
         "24/7 customer support"
@@ -85,7 +85,7 @@
         "Boat ride on the reservoir",
         "Entrance to El Peñol rock",
         "Traditional lunch",
-        "Bilingual guide",
+        "English & Spanish guide",
         "Bottled water and snacks"
       ],
       "highlights": [
@@ -166,7 +166,7 @@
         "Production demonstration",
         "Multiple coffee tastings",
         "Traditional lunch",
-        "Bilingual guide"
+        "English & Spanish guide"
       ],
       "highlights": [
         "Authentic coffee experience",
@@ -282,7 +282,7 @@
         "VIP access to venues",
         "Local expert recommendations",
         "Safety and security",
-        "Bilingual assistance",
+        "English & Spanish assistance",
         "Emergency support"
       ],
       "highlights": [
@@ -339,9 +339,7 @@
     "title": "Why Everyone",
     "titleAccent": "Loves",
     "titleEnd": "Jackie ❤️",
-    "description": "Born and raised in Medellín (so I know ALL the spots 📍), I've been the go-to driver for cool travelers for 5+ years. Fluent in English and Spanish, always with the best playlist, and committed to making your Colombian adventure absolutely unforgettable!",
-    "bilingual": "Perfectly Bilingual",
-    "bilingualSub": "English & Spanish 🗣️",
+    "description": "Your trusted local driver in Medellín (I know ALL the spots 📍), I've been the go-to driver for cool travelers for 5+ years. Great communication in English and Spanish, always with the best playlist, and committed to making your Colombian adventure absolutely unforgettable!",
     "experience": "5+ Years",
     "experienceSub": "Making memories ✨",
     "licensed": "100% Licensed",
@@ -376,7 +374,7 @@
     "callButton": "Call Jackie 📞"
   },
   "footer": {
-    "tagline": "Your trusted bilingual driver in Medellín 🇨🇴",
+    "tagline": "Your trusted local driver in Medellín 🇨🇴",
     "description": "Direct booking • New 2025 car • Airport pickups • Private tours • Multi-day chauffeur",
     "quickLinks": "Quick Links",
     "services": "Services",

@@ -114,7 +114,7 @@ const testimonials = [
   {
     name: "Emma L. 🇬🇧",
     location: "London, UK",
-    text: "That Guatapé trip was UNREAL! Jackie's bilingual skills and local knowledge made everything so much better. Plus her playlist was fire 🔥",
+    text: "That Guatapé trip was UNREAL! Jackie's local knowledge and amazing personality made everything so much better. Plus her playlist was fire 🔥",
     rating: 5,
   }
 ];
@@ -136,11 +136,8 @@ const testimonials = [
             </div>
           </div>
           <div className="hidden md:flex items-center gap-4">
-            <SocialBar compact />
             <LanguageSwitcher />
-            <WhatsAppButton className="ml-4 hover:rotate-2" onClick={() => {
-              document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
-            }}>{t('header.bookNow')}</WhatsAppButton>
+            <WhatsAppButton className="ml-4 hover:rotate-2">{t('header.bookNow')}</WhatsAppButton>
           </div>
           <div className="md:hidden flex items-center gap-2">
             <LanguageSwitcher />
@@ -186,7 +183,9 @@ const testimonials = [
                 <WhatsAppButton className="text-lg hover:rotate-2 animate-bounce-in">
                   {t('hero.chatButton')}
                 </WhatsAppButton>
-                <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-105">
+                <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-105" onClick={() => {
+                  document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                }}>
                   <Camera className="w-5 h-5 mr-2" />
                   {t('hero.adventuresButton')}
                 </Button>
@@ -202,7 +201,7 @@ const testimonials = [
                 </div>
                 <div className="flex items-center gap-2 animate-slide-up delay-700">
                   <Users className="w-5 h-5" />
-                  <span>{t('hero.bilingual')}</span>
+                  <span>{t('hero.happyTravelers')}</span>
                 </div>
               </div>
             </div>
@@ -282,8 +281,8 @@ const testimonials = [
                     <Users className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold">{t('about.bilingual')}</div>
-                    <div className="text-sm text-muted-foreground">{t('about.bilingualSub')}</div>
+                    <div className="font-bold">{t('about.experience')}</div>
+                    <div className="text-sm text-muted-foreground">{t('about.experienceSub')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 animate-bounce-in delay-200">
@@ -314,12 +313,7 @@ const testimonials = [
                   </div>
                 </div>
               </div>
-              <div className="text-center lg:text-left animate-slide-up delay-500">
-                <p className="text-muted-foreground mb-4 font-handwriting text-lg">
-                  {t('about.followText')}
-                </p>
-                <SocialBar />
-              </div>
+              {/* Social media section hidden */}
             </div>
             <div className="relative animate-slide-up delay-300">
               <Card className="bg-gradient-card border-0 shadow-hover hover:shadow-glow transition-elastic hover:scale-105">
@@ -472,10 +466,9 @@ const testimonials = [
                 </div>
               </div>
               <p className="text-white/70 mb-4 leading-relaxed">
-                Making Medellín adventures unforgettable since day one! New 2025 sedan, bilingual service, 
+                Making Medellín adventures unforgettable since day one! New 2025 sedan, great communication, 
                 and all the local secrets you need. Let's explore together! 🌟
               </p>
-              <SocialBar className="mb-4" />
             </div>
             <div className="animate-slide-up delay-200">
               <h5 className="font-bold mb-4 text-lg font-display">Epic Adventures 🎯</h5>
@@ -493,11 +486,11 @@ const testimonials = [
               <div className="space-y-3 text-white/70">
                 <div className="flex items-center gap-2">
                   <MessageCircle className="w-4 h-4" />
-                  <span>WhatsApp: +57 300 123 4567</span>
+                  <span>WhatsApp: +57 321 6122300</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Instagram className="w-4 h-4" />
-                  <span>@jackiemedellin</span>
+                  <Phone className="w-4 h-4" />
+                  <span>Phone: +57 321 6122300</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />

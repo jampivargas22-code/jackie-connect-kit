@@ -10,7 +10,7 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: MessageCircle,
-    url: "https://wa.me/573001234567?text=Hey%20Jackie!%20Ready%20to%20explore%20Medellín%20🇨🇴",
+    url: "https://wa.me/573216122300?text=Hey%20Jackie!%20Ready%20to%20explore%20Medellín%20🇨🇴",
     color: "text-green-500 hover:text-green-600",
     bgColor: "hover:bg-green-50",
   },
@@ -45,30 +45,8 @@ const socialLinks = [
 ];
 
 export function SocialBar({ className = "", compact = false }: SocialBarProps) {
-  return (
-    <div className={`flex items-center gap-2 ${className}`}>
-      {socialLinks.map((social, index) => (
-        <a
-          key={social.name}
-          href={social.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`
-            w-${compact ? '10' : '12'} h-${compact ? '10' : '12'} 
-            rounded-full flex items-center justify-center
-            transition-elastic hover:scale-110 hover:rotate-12 
-            ${social.color} ${social.bgColor}
-            shadow-sm hover:shadow-fun
-            animate-bounce-in
-          `}
-          style={{animationDelay: `${index * 0.1}s`}}
-          aria-label={`Follow Jackie on ${social.name}`}
-        >
-          <social.icon size={compact ? 18 : 22} />
-        </a>
-      ))}
-    </div>
-  );
+  // Social media icons are hidden for now
+  return null;
 }
 
 export function WhatsAppButton({ className = "", children = "Chat on WhatsApp", onClick }: { className?: string; children?: React.ReactNode; onClick?: () => void }) {

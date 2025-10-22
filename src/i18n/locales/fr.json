@@ -14,7 +14,7 @@
     "adventuresButton": "Voir Aventures",
     "licensed": "Licencié et Assuré ✅",
     "newCar": "Voiture 2025 🔥",
-    "bilingual": "Totalement Bilingue 🗣️",
+    "bilingual": "Bonne Communication 🗣️",
     "happyTravelers": "Voyageurs Heureux 🎉"
   },
   "services": {
@@ -41,7 +41,7 @@
       ],
       "included": [
         "Véhicule privé avec chauffeur professionnel",
-        "Chauffeur bilingue (anglais/espagnol)",
+        "Parle anglais et espagnol couramment 🗣️",
         "Eau en bouteille et rafraîchissements légers",
         "Suivi GPS en temps réel",
         "Support client 24/7"
@@ -79,7 +79,7 @@
         "Promenade en bateau sur le réservoir",
         "Entrée au rocher El Peñol",
         "Déjeuner traditionnel",
-        "Guide bilingue",
+        "Guide en anglais et espagnol",
         "Eau en bouteille et collations"
       ],
       "highlights": [
@@ -154,7 +154,7 @@
         "Démonstration de production",
         "Multiples dégustations de café",
         "Déjeuner traditionnel",
-        "Guide bilingue"
+        "Guide en anglais et espagnol"
       ],
       "highlights": [
         "Expérience café authentique",
@@ -261,7 +261,7 @@
         "Accès VIP aux établissements",
         "Recommandations d'expert local",
         "Sécurité et protection",
-        "Assistance bilingue",
+        "Assistance en anglais et espagnol",
         "Support d'urgence"
       ],
       "highlights": [
@@ -315,9 +315,7 @@
     "title": "Pourquoi Tout Le Monde",
     "titleAccent": "Aime",
     "titleEnd": "Jackie ❤️",
-    "description": "Née et élevée à Medellín (je connais TOUS les endroits 📍), je suis le chauffeur préféré des voyageurs cool depuis plus de 5 ans. Fluide en anglais et espagnol, toujours avec la meilleure playlist, et engagée à rendre votre aventure colombienne absolument inoubliable!",
-    "bilingual": "Parfaitement Bilingue",
-    "bilingualSub": "Anglais et Espagnol 🗣️",
+    "description": "Votre chauffeur local de confiance à Medellín (je connais TOUS les endroits 📍), je suis le chauffeur préféré des voyageurs cool depuis plus de 5 ans. Bonne communication en anglais et espagnol, toujours avec la meilleure playlist, et engagée à rendre votre aventure colombienne absolument inoubliable!",
     "experience": "Plus de 5 Ans",
     "experienceSub": "Créer des souvenirs ✨",
     "licensed": "100% Licencié",
@@ -352,7 +350,7 @@
     "callButton": "Appeler Jackie 📞"
   },
   "footer": {
-    "tagline": "Votre chauffeur bilingue de confiance à Medellín 🇨🇴",
+    "tagline": "Votre chauffeur local de confiance à Medellín 🇨🇴",
     "description": "Réservation directe • Voiture neuve 2025 • Transfers aéroport • Tours privés • Chauffeur multi-jours",
     "quickLinks": "Liens Rapides",
     "services": "Services",
