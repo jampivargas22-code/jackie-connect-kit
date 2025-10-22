@@ -120,6 +120,17 @@ const Checkout = () => {
   };
 
   const saveBookingToSupabase = async (paymentId: string) => {
+    // Supabase is currently disabled
+    if (!supabase) {
+      console.log('Booking data (Supabase disabled):', {
+        ...bookingData,
+        paymentId,
+        status: 'confirmed',
+        createdAt: new Date().toISOString()
+      });
+      return null;
+    }
+
     try {
       const { data, error } = await supabase
         .from('bookings')
