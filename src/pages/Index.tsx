@@ -95,6 +95,14 @@ const Index = () => {
       price: sharedData.services.multiday.price,
       image: sharedData.services.multiday.images[0],
       features: t('services.multiday.features', { returnObjects: true }) as string[]
+    },
+    {
+      id: 'napoles',
+      title: t('services.napoles.title'),
+      description: t('services.napoles.description'),
+      price: sharedData.services.napoles.price,
+      image: sharedData.services.napoles.images[0],
+      features: t('services.napoles.features', { returnObjects: true }) as string[]
     }
   ];
 

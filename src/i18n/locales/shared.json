@@ -79,6 +79,16 @@
         "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center",
         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
       ]
+    },
+    "napoles": {
+      "price": "$190 USD",
+      "duration": "Full day (10-12 hours)",
+      "groupSize": "1-6 people",
+      "images": [
+        "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&h=600&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&h=600&fit=crop&crop=center"
+      ]
     }
   }
 }

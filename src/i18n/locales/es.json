@@ -346,6 +346,48 @@
         "Experiencias memorables"
       ]
     },
+    "napoles": {
+      "title": "Hacienda Nápoles 🦛",
+      "description": "¡Increíble parque temático en la antigua hacienda de Pablo Escobar - historia, naturaleza y diversión!",
+      "location": "Puerto Triunfo, Antioquia",
+      "history": "La Hacienda Nápoles fue construida en los años 80 por Pablo Escobar como su residencia privada. Hoy transformada en un parque temático que honra la memoria de las víctimas mientras ofrece entretenimiento familiar. El parque simboliza la transformación de Colombia y su compromiso con la paz y la reconciliación.",
+      "background": "Ubicada a 4 horas de Medellín en Puerto Triunfo, la Hacienda Nápoles se extiende por más de 2,000 hectáreas. El complejo incluye un zoológico con animales africanos (incluyendo los famosos hipopótamos), parque acuático, museo, reserva natural y sitios históricos que narran tanto la época del narcotráfico como la transformación del lugar.",
+      "whatToExpect": "Una experiencia de día completo que combina historia, naturaleza y diversión. Explorarás el zoológico con especies africanas únicas, disfrutarás del parque acuático, visitarás los restos históricos de la hacienda, y aprenderás sobre la transformación de Colombia. Incluye transporte ida y vuelta con explicaciones en el camino sobre la región.",
+      "features": [
+        "Transporte privado ida y vuelta (4hrs cada trayecto) 🚗",
+        "Parque temático de naturaleza y aventura 🌿",
+        "Zoológico con animales africanos y hipopótamos 🦛",
+        "Museo histórico y sitios memoriales 🏛️",
+        "Parque acuático (opcional) 💦",
+        "10-12 horas de aventura completa 🌟"
+      ],
+      "itinerary": [
+        "Salida temprano desde Medellín (6-7am)",
+        "Viaje panorámico a Puerto Triunfo (4 horas)",
+        "Entrada a Hacienda Nápoles",
+        "Recorrido por el zoológico y safari africano",
+        "Visita a sitios históricos y museo",
+        "Tiempo libre para parque acuático o explorar",
+        "Almuerzo en el parque",
+        "Regreso a Medellín en la tarde"
+      ],
+      "included": [
+        "Transporte privado ida y vuelta",
+        "Entrada al parque temático",
+        "Guía en inglés y español",
+        "Almuerzo en el parque",
+        "Agua embotellada y refrigerios",
+        "Seguro de viaje"
+      ],
+      "highlights": [
+        "Zoológico con especies africanas únicas",
+        "Los famosos hipopótamos de Colombia",
+        "Parque acuático tropical",
+        "Historia y transformación",
+        "Belleza natural de la región",
+        "Experiencia educativa"
+      ]
+    },
     "bookButton": "¡Hagámoslo! 🚀"
   },
   "about": {
