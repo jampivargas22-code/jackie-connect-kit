@@ -21,7 +21,8 @@ export function ServiceCard({ id, title, description, price, image, features, cl
 
   const handleBookClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
-    navigate(`/checkout?service=${id}&name=${encodeURIComponent(title)}`);
+    const message = `Hey Jackie! I'm interested in booking: ${title}. Can you give me more details?`;
+    window.open(`https://wa.me/573216122300?text=${encodeURIComponent(message)}`, "_blank");
   };
   
   return (
