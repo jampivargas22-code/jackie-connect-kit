@@ -448,5 +448,42 @@
     "subtitle": "¡Ups! Página no encontrada",
     "description": "La página que buscas no existe o ha sido movida.",
     "returnHome": "Volver al Inicio"
+  },
+  "reviews": {
+    "title": "Comparte tu Experiencia",
+    "loadingReviews": "Cargando reseñas...",
+    "noReviews": "Aún no hay reseñas. ¡Sé el primero en compartir tu experiencia!",
+    "averageRating": "Basado en",
+    "review": "reseña",
+    "reviews": "reseñas",
+    "form": {
+      "title": "Comparte tu Experiencia",
+      "rating": "Calificación",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo",
+      "emailPlaceholder": "tu@correo.com",
+      "comment": "Tu Reseña",
+      "commentPlaceholder": "Cuéntanos sobre tu experiencia...",
+      "characterCount": "caracteres",
+      "submitButton": "Enviar Reseña",
+      "submitting": "Enviando...",
+      "required": "*"
+    },
+    "validation": {
+      "nameRequired": "El nombre es requerido",
+      "nameMax": "El nombre debe tener menos de 100 caracteres",
+      "emailInvalid": "Correo electrónico inválido",
+      "emailMax": "El correo debe tener menos de 255 caracteres",
+      "commentRequired": "La reseña es requerida",
+      "commentMax": "La reseña debe tener menos de 1000 caracteres"
+    },
+    "toast": {
+      "success": "¡Reseña enviada!",
+      "successDescription": "Gracias por compartir tu experiencia.",
+      "validationError": "Error de validación",
+      "error": "Error",
+      "errorDescription": "No se pudo enviar la reseña. Por favor intenta de nuevo."
+    }
   }
 }

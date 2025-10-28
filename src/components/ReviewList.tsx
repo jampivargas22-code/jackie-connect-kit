@@ -3,6 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Star } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { format } from 'date-fns';
+import { useTranslation } from 'react-i18next';
 
 interface Review {
   id: string;
@@ -21,6 +22,7 @@ export function ReviewList({ tourId, refreshTrigger }: ReviewListProps) {
   const [reviews, setReviews] = useState<Review[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [averageRating, setAverageRating] = useState(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     fetchReviews();
@@ -54,7 +56,7 @@ export function ReviewList({ tourId, refreshTrigger }: ReviewListProps) {
   if (isLoading) {
     return (
       <div className="text-center py-8">
-        <p className="text-muted-foreground">Loading reviews...</p>
+        <p className="text-muted-foreground">{t('reviews.loadingReviews')}</p>
       </div>
     );
   }
@@ -62,7 +64,7 @@ export function ReviewList({ tourId, refreshTrigger }: ReviewListProps) {
   if (reviews.length === 0) {
     return (
       <div className="text-center py-8">
-        <p className="text-muted-foreground">No reviews yet. Be the first to share your experience!</p>
+        <p className="text-muted-foreground">{t('reviews.noReviews')}</p>
       </div>
     );
   }
@@ -76,7 +78,7 @@ export function ReviewList({ tourId, refreshTrigger }: ReviewListProps) {
           <span className="text-4xl font-bold">{averageRating}</span>
         </div>
         <p className="text-muted-foreground">
-          Based on {reviews.length} {reviews.length === 1 ? 'review' : 'reviews'}
+          {t('reviews.averageRating')} {reviews.length} {reviews.length === 1 ? t('reviews.review') : t('reviews.reviews')}
         </p>
       </div>
 

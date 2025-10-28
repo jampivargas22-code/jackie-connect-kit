@@ -410,5 +410,42 @@
     "subtitle": "Oups ! Page non trouvée",
     "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
     "returnHome": "Retour à l'Accueil"
+  },
+  "reviews": {
+    "title": "Partagez votre Expérience",
+    "loadingReviews": "Chargement des avis...",
+    "noReviews": "Aucun avis pour le moment. Soyez le premier à partager votre expérience !",
+    "averageRating": "Basé sur",
+    "review": "avis",
+    "reviews": "avis",
+    "form": {
+      "title": "Partagez votre Expérience",
+      "rating": "Évaluation",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail",
+      "emailPlaceholder": "votre@email.com",
+      "comment": "Votre Avis",
+      "commentPlaceholder": "Parlez-nous de votre expérience...",
+      "characterCount": "caractères",
+      "submitButton": "Soumettre l'Avis",
+      "submitting": "Envoi en cours...",
+      "required": "*"
+    },
+    "validation": {
+      "nameRequired": "Le nom est requis",
+      "nameMax": "Le nom doit contenir moins de 100 caractères",
+      "emailInvalid": "Adresse e-mail invalide",
+      "emailMax": "L'e-mail doit contenir moins de 255 caractères",
+      "commentRequired": "L'avis est requis",
+      "commentMax": "L'avis doit contenir moins de 1000 caractères"
+    },
+    "toast": {
+      "success": "Avis soumis !",
+      "successDescription": "Merci d'avoir partagé votre expérience.",
+      "validationError": "Erreur de validation",
+      "error": "Erreur",
+      "errorDescription": "Échec de l'envoi de l'avis. Veuillez réessayer."
+    }
   }
 }

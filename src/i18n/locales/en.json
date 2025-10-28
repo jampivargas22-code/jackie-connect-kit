@@ -434,5 +434,42 @@
     "subtitle": "Oops! Page not found",
     "description": "The page you're looking for doesn't exist or has been moved.",
     "returnHome": "Return to Home"
+  },
+  "reviews": {
+    "title": "Share Your Experience",
+    "loadingReviews": "Loading reviews...",
+    "noReviews": "No reviews yet. Be the first to share your experience!",
+    "averageRating": "Based on",
+    "review": "review",
+    "reviews": "reviews",
+    "form": {
+      "title": "Share Your Experience",
+      "rating": "Rating",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "comment": "Your Review",
+      "commentPlaceholder": "Tell us about your experience...",
+      "characterCount": "characters",
+      "submitButton": "Submit Review",
+      "submitting": "Submitting...",
+      "required": "*"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMax": "Name must be less than 100 characters",
+      "emailInvalid": "Invalid email address",
+      "emailMax": "Email must be less than 255 characters",
+      "commentRequired": "Review is required",
+      "commentMax": "Review must be less than 1000 characters"
+    },
+    "toast": {
+      "success": "Review submitted!",
+      "successDescription": "Thank you for sharing your experience.",
+      "validationError": "Validation error",
+      "error": "Error",
+      "errorDescription": "Failed to submit review. Please try again."
+    }
   }
 }

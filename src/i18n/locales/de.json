@@ -410,5 +410,42 @@
     "subtitle": "Ups! Seite nicht gefunden",
     "description": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben.",
     "returnHome": "Zurück zur Startseite"
+  },
+  "reviews": {
+    "title": "Teilen Sie Ihre Erfahrung",
+    "loadingReviews": "Bewertungen werden geladen...",
+    "noReviews": "Noch keine Bewertungen. Seien Sie der Erste, der seine Erfahrung teilt!",
+    "averageRating": "Basierend auf",
+    "review": "Bewertung",
+    "reviews": "Bewertungen",
+    "form": {
+      "title": "Teilen Sie Ihre Erfahrung",
+      "rating": "Bewertung",
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.com",
+      "comment": "Ihre Bewertung",
+      "commentPlaceholder": "Erzählen Sie uns von Ihrer Erfahrung...",
+      "characterCount": "Zeichen",
+      "submitButton": "Bewertung Absenden",
+      "submitting": "Wird gesendet...",
+      "required": "*"
+    },
+    "validation": {
+      "nameRequired": "Name ist erforderlich",
+      "nameMax": "Name muss weniger als 100 Zeichen haben",
+      "emailInvalid": "Ungültige E-Mail-Adresse",
+      "emailMax": "E-Mail muss weniger als 255 Zeichen haben",
+      "commentRequired": "Bewertung ist erforderlich",
+      "commentMax": "Bewertung muss weniger als 1000 Zeichen haben"
+    },
+    "toast": {
+      "success": "Bewertung eingereicht!",
+      "successDescription": "Vielen Dank, dass Sie Ihre Erfahrung geteilt haben.",
+      "validationError": "Validierungsfehler",
+      "error": "Fehler",
+      "errorDescription": "Fehler beim Senden der Bewertung. Bitte versuchen Sie es erneut."
+    }
   }
 }

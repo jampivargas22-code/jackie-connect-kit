@@ -410,5 +410,42 @@
     "subtitle": "Ops! Página não encontrada",
     "description": "A página que você está procurando não existe ou foi movida.",
     "returnHome": "Voltar ao Início"
+  },
+  "reviews": {
+    "title": "Compartilhe sua Experiência",
+    "loadingReviews": "Carregando avaliações...",
+    "noReviews": "Ainda não há avaliações. Seja o primeiro a compartilhar sua experiência!",
+    "averageRating": "Baseado em",
+    "review": "avaliação",
+    "reviews": "avaliações",
+    "form": {
+      "title": "Compartilhe sua Experiência",
+      "rating": "Avaliação",
+      "name": "Nome",
+      "namePlaceholder": "Seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "seu@email.com",
+      "comment": "Sua Avaliação",
+      "commentPlaceholder": "Conte-nos sobre sua experiência...",
+      "characterCount": "caracteres",
+      "submitButton": "Enviar Avaliação",
+      "submitting": "Enviando...",
+      "required": "*"
+    },
+    "validation": {
+      "nameRequired": "Nome é obrigatório",
+      "nameMax": "Nome deve ter menos de 100 caracteres",
+      "emailInvalid": "Endereço de e-mail inválido",
+      "emailMax": "E-mail deve ter menos de 255 caracteres",
+      "commentRequired": "Avaliação é obrigatória",
+      "commentMax": "Avaliação deve ter menos de 1000 caracteres"
+    },
+    "toast": {
+      "success": "Avaliação enviada!",
+      "successDescription": "Obrigado por compartilhar sua experiência.",
+      "validationError": "Erro de validação",
+      "error": "Erro",
+      "errorDescription": "Falha ao enviar avaliação. Por favor, tente novamente."
+    }
   }
 }
