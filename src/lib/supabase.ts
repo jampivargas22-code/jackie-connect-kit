@@ -1,20 +1,13 @@
 import { createClient } from '@supabase/supabase-js';
 
-// Supabase is currently disabled
-// To enable, add valid VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY to .env file
-// and uncomment the code below
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
 
-// const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-// const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+if (!supabaseUrl || !supabaseKey) {
+  throw new Error('Missing Supabase environment variables');
+}
 
-// if (!supabaseUrl || !supabaseKey) {
-//   throw new Error('Missing Supabase environment variables');
-// }
-
-// export const supabase = createClient(supabaseUrl, supabaseKey);
-
-// Temporary mock export to prevent errors
-export const supabase = null as any;
+export const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Database types
 export interface Booking {
