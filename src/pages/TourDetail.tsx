@@ -1,8 +1,11 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { SocialBar, WhatsAppButton } from "@/components/SocialBar";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ReviewForm } from "@/components/ReviewForm";
+import { ReviewList } from "@/components/ReviewList";
 import { useTranslation } from 'react-i18next';
 import sharedData from '@/i18n/locales/shared.json';
 import {
@@ -14,13 +17,15 @@ import {
   CheckCircle,
   Camera,
   Heart,
-  Sparkles
+  Sparkles,
+  MessageSquare
 } from "lucide-react";
 
 const TourDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { t } = useTranslation();
+  const [reviewRefreshTrigger, setReviewRefreshTrigger] = useState(0);
 
   // Get tour data from translations and shared data
   const getTourData = (tourId: string) => {
@@ -293,6 +298,41 @@ const TourDetail = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews Section */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4 font-display flex items-center justify-center gap-3">
+                <MessageSquare className="w-8 h-8 text-primary" />
+                Guest Reviews
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                See what others are saying about this experience
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              {/* Review Form */}
+              <div>
+                <ReviewForm 
+                  tourId={id || ''} 
+                  onReviewSubmitted={() => setReviewRefreshTrigger(prev => prev + 1)}
+                />
+              </div>
+
+              {/* Review List */}
+              <div>
+                <ReviewList 
+                  tourId={id || ''} 
+                  refreshTrigger={reviewRefreshTrigger}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
