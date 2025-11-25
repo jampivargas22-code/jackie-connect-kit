@@ -45,9 +45,10 @@
       "duration": "3-4 hours",
       "groupSize": "1-2 people",
       "images": [
-        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+        "/images/paragliding-1.jpg",
+        "/images/paragliding-2.jpg",
+        "/images/paragliding-3.jpg",
+        "/images/paragliding-4.jpg"
       ]
     },
     "pablo": {
