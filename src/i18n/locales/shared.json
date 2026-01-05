@@ -92,6 +92,10 @@
         "/images/napoles-4.jpg",
         "/images/napoles-5.jpg",
         "/images/napoles-6.jpg"
+      ],
+      "videos": [
+        "/videos/napoles-1.mp4",
+        "/videos/napoles-2.mp4"
       ]
     }
   }
