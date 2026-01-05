@@ -86,9 +86,11 @@
       "duration": "Full day (10-12 hours)",
       "groupSize": "1-6 people",
       "images": [
-        "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&h=600&fit=crop&crop=center"
+        "/images/napoles-1.jpg",
+        "/images/napoles-2.jpg",
+        "/images/napoles-3.jpg",
+        "/images/napoles-4.jpg",
+        "/images/napoles-5.jpg"
       ]
     }
   }
