@@ -18,7 +18,8 @@ import {
   Camera,
   Heart,
   Sparkles,
-  MessageSquare
+  MessageSquare,
+  Play
 } from "lucide-react";
 
 const TourDetail = () => {
@@ -41,6 +42,7 @@ const TourDetail = () => {
       background: t(`services.${tourId}.background`),
       whatToExpect: t(`services.${tourId}.whatToExpect`),
       images: sharedServiceData.images,
+      videos: 'videos' in sharedServiceData ? (sharedServiceData as any).videos as string[] : [],
       features: t(`services.${tourId}.features`, { returnObjects: true }) as string[],
       itinerary: t(`services.${tourId}.itinerary`, { returnObjects: true }) as string[],
       included: t(`services.${tourId}.included`, { returnObjects: true }) as string[],
@@ -140,6 +142,32 @@ const TourDetail = () => {
               See what makes this experience unforgettable
             </p>
           </div>
+          
+          {/* Videos */}
+          {tour.videos && tour.videos.length > 0 && (
+            <div className="mb-8">
+              <h3 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <Play className="w-5 h-5 text-primary" />
+                Videos
+              </h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                {tour.videos.map((video, index) => (
+                  <div key={index} className="relative overflow-hidden rounded-2xl shadow-hover">
+                    <video
+                      src={video}
+                      controls
+                      className="w-full h-64 object-cover"
+                      preload="metadata"
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          
+          {/* Images */}
           <div className="grid md:grid-cols-3 gap-6">
             {tour.images.map((image, index) => (
               <div key={index} className="relative group overflow-hidden rounded-2xl shadow-hover">
