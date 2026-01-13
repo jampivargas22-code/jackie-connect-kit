@@ -18,6 +18,11 @@
         "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center",
         "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center",
         "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&crop=center"
+      ],
+      "videos": [
+        "/videos/guatape-1.mp4",
+        "/videos/guatape-2.mp4",
+        "/videos/guatape-3.mp4"
       ]
     },
     "comuna13": {
