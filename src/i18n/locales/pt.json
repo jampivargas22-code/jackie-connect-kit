@@ -350,6 +350,46 @@
         "Experiência educativa"
       ]
     },
+    "museum": {
+      "title": "Museu Pablo Escobar 🎟️",
+      "description": "Visite o Museu Pablo Escobar - aprenda a história real com entrada ao museu incluída!",
+      "location": "Medellín, Antioquia",
+      "history": "O Museu Pablo Escobar em Medellín conta a história do mais notório traficante da Colômbia através de artefatos, fotografias e pertences pessoais. O museu oferece um olhar sóbrio sobre o impacto do tráfico de drogas na sociedade colombiana.",
+      "background": "Localizado no coração de Medellín, o museu ocupa um espaço transformado em centro educacional. Apresenta exposições que narram a ascensão e queda do Cartel de Medellín e o notável caminho do país rumo à paz.",
+      "whatToExpect": "Uma experiência profundamente educativa que vai além das séries da Netflix. Você verá artefatos autênticos, ouvirá histórias reais e entenderá como Medellín se transformou. O ingresso do museu está incluído no preço.",
+      "features": [
+        "Ingresso do museu incluído 🎟️",
+        "Transporte privado para/do museu 🚗",
+        "Tour guiado com contexto histórico 📚",
+        "Artefatos e fotografias autênticas 📷",
+        "Perspectiva equilibrada e educativa ⚖️",
+        "3-4 horas experiência completa 🕐"
+      ],
+      "itinerary": [
+        "Coleta em sua hospedagem",
+        "Trajeto para o Museu Pablo Escobar",
+        "Tour guiado pelo museu com contexto histórico",
+        "Ver exposições e artefatos",
+        "Sessão de perguntas e respostas com guia",
+        "Retorno à sua hospedagem"
+      ],
+      "included": [
+        "Ingresso do museu 🎟️",
+        "Transporte privado",
+        "Guia em inglês e espanhol",
+        "Contexto histórico e histórias",
+        "Oportunidades fotográficas",
+        "Água engarrafada"
+      ],
+      "highlights": [
+        "Entrada ao museu incluída",
+        "Artefatos históricos autênticos",
+        "Experiência educativa",
+        "Perspectiva equilibrada",
+        "Guia especialista local",
+        "História de transformação urbana"
+      ]
+    },
     "bookButton": "Vamos Fazer Isso! 🚀"
   },
   "about": {
