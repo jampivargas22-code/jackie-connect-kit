@@ -1,13 +1,14 @@
 {
   "services": {
     "airport": {
-      "price": "$35-45 USD",
+      "price": "$45-50 USD",
       "duration": "2-3 hours",
       "groupSize": "1-4 people",
       "images": [
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop&crop=center"
+        "/images/airport-1.jpg",
+        "/images/airport-2.jpg",
+        "/images/airport-3.jpg",
+        "/images/airport-4.jpg"
       ]
     },
     "guatape": {
