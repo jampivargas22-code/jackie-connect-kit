@@ -374,6 +374,46 @@
         "Educational experience"
       ]
     },
+    "museum": {
+      "title": "Pablo Escobar Museum 🎟️",
+      "description": "Visit the Pablo Escobar Museum - learn the real history with museum entrance included!",
+      "location": "Medellín, Antioquia",
+      "history": "The Pablo Escobar Museum in Medellín tells the story of Colombia's most notorious drug lord through artifacts, photographs, and personal belongings. The museum provides a sobering look at the impact of the drug trade on Colombian society and honors the memory of the thousands of victims.",
+      "background": "Located in the heart of Medellín, the museum occupies a space that has been transformed into an educational center. It features exhibitions that chronicle the rise and fall of the Medellín Cartel, the impact on Colombian society, and the country's remarkable journey toward peace and reconciliation.",
+      "whatToExpect": "A deeply educational experience that goes beyond the Netflix series. You'll see authentic artifacts, hear real stories from people who lived through the era, and understand how Medellín transformed from the world's most dangerous city into a model of urban innovation. The museum entrance ticket is included in the tour price.",
+      "features": [
+        "Museum entrance ticket included 🎟️",
+        "Private transportation to/from museum 🚗",
+        "Guided tour with historical context 📚",
+        "Authentic artifacts and photographs 📷",
+        "Balanced, educational perspective ⚖️",
+        "3-4 hours complete experience 🕐"
+      ],
+      "itinerary": [
+        "Pickup from your accommodation",
+        "Drive to Pablo Escobar Museum",
+        "Guided museum tour with historical context",
+        "View exhibitions and artifacts",
+        "Q&A session with guide",
+        "Return to your accommodation"
+      ],
+      "included": [
+        "Museum entrance ticket 🎟️",
+        "Private transportation",
+        "English & Spanish guide",
+        "Historical context and stories",
+        "Photography opportunities",
+        "Bottled water"
+      ],
+      "highlights": [
+        "Museum entrance included",
+        "Authentic historical artifacts",
+        "Educational experience",
+        "Balanced perspective",
+        "Local expert guide",
+        "Urban transformation story"
+      ]
+    },
     "bookButton": "Let's Do This! 🚀"
   },
   "about": {

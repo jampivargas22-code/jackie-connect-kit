@@ -388,6 +388,46 @@
         "Experiencia educativa"
       ]
     },
+    "museum": {
+      "title": "Museo Pablo Escobar 🎟️",
+      "description": "¡Visita el Museo de Pablo Escobar - aprende la historia real con entrada al museo incluida!",
+      "location": "Medellín, Antioquia",
+      "history": "El Museo de Pablo Escobar en Medellín cuenta la historia del narcotraficante más notorio de Colombia a través de artefactos, fotografías y pertenencias personales. El museo ofrece una mirada sobria al impacto del narcotráfico en la sociedad colombiana y honra la memoria de las miles de víctimas.",
+      "background": "Ubicado en el corazón de Medellín, el museo ocupa un espacio que ha sido transformado en un centro educativo. Presenta exhibiciones que narran el auge y la caída del Cartel de Medellín, el impacto en la sociedad colombiana y el notable camino del país hacia la paz y la reconciliación.",
+      "whatToExpect": "Una experiencia profundamente educativa que va más allá de las series de Netflix. Verás artefactos auténticos, escucharás historias reales de personas que vivieron esa época, y entenderás cómo Medellín se transformó de la ciudad más peligrosa del mundo en un modelo de innovación urbana. La entrada al museo está incluida en el precio del tour.",
+      "features": [
+        "Entrada al museo incluida 🎟️",
+        "Transporte privado al/desde museo 🚗",
+        "Tour guiado con contexto histórico 📚",
+        "Artefactos y fotografías auténticas 📷",
+        "Perspectiva equilibrada y educativa ⚖️",
+        "3-4 horas experiencia completa 🕐"
+      ],
+      "itinerary": [
+        "Recogida desde tu alojamiento",
+        "Viaje al Museo de Pablo Escobar",
+        "Tour guiado por el museo con contexto histórico",
+        "Ver exhibiciones y artefactos",
+        "Sesión de preguntas y respuestas con el guía",
+        "Regreso a tu alojamiento"
+      ],
+      "included": [
+        "Entrada al museo 🎟️",
+        "Transporte privado",
+        "Guía en inglés y español",
+        "Contexto histórico e historias",
+        "Oportunidades fotográficas",
+        "Agua embotellada"
+      ],
+      "highlights": [
+        "Entrada al museo incluida",
+        "Artefactos históricos auténticos",
+        "Experiencia educativa",
+        "Perspectiva equilibrada",
+        "Guía experto local",
+        "Historia de transformación urbana"
+      ]
+    },
     "bookButton": "¡Hagámoslo! 🚀"
   },
   "about": {

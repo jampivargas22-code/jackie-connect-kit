@@ -350,6 +350,46 @@
         "Bildungserlebnis"
       ]
     },
+    "museum": {
+      "title": "Pablo Escobar Museum 🎟️",
+      "description": "Besuche das Pablo Escobar Museum - lerne die wahre Geschichte mit Museum-Eintritt inklusive!",
+      "location": "Medellín, Antioquia",
+      "history": "Das Pablo Escobar Museum in Medellín erzählt die Geschichte von Kolumbiens berüchtigstem Drogenbaron durch Artefakte, Fotografien und persönliche Gegenstände. Das Museum bietet einen nüchternen Blick auf die Auswirkungen des Drogenhandels auf die kolumbianische Gesellschaft.",
+      "background": "Im Herzen von Medellín gelegen, wurde der Raum in ein Bildungszentrum umgewandelt. Es zeigt Ausstellungen, die den Aufstieg und Fall des Medellín-Kartells und den bemerkenswerten Weg des Landes zum Frieden dokumentieren.",
+      "whatToExpect": "Ein tiefgreifendes Bildungserlebnis, das über Netflix-Serien hinausgeht. Sie sehen authentische Artefakte, hören echte Geschichten und verstehen, wie sich Medellín verwandelt hat. Der Museumseintritt ist im Preis enthalten.",
+      "features": [
+        "Museums-Eintrittskarte inklusive 🎟️",
+        "Privater Transport zum/vom Museum 🚗",
+        "Geführte Tour mit historischem Kontext 📚",
+        "Authentische Artefakte und Fotografien 📷",
+        "Ausgewogene, bildende Perspektive ⚖️",
+        "3-4 Stunden komplettes Erlebnis 🕐"
+      ],
+      "itinerary": [
+        "Abholung von deiner Unterkunft",
+        "Fahrt zum Pablo Escobar Museum",
+        "Geführte Museumstour mit historischem Kontext",
+        "Ausstellungen und Artefakte besichtigen",
+        "Frage-Antwort-Runde mit Guide",
+        "Rückkehr zu deiner Unterkunft"
+      ],
+      "included": [
+        "Museums-Eintrittskarte 🎟️",
+        "Privater Transport",
+        "Englisch- und Spanisch-Guide",
+        "Historischer Kontext und Geschichten",
+        "Fotogelegenheiten",
+        "Flaschenwasser"
+      ],
+      "highlights": [
+        "Museumseintritt inklusive",
+        "Authentische historische Artefakte",
+        "Bildungserlebnis",
+        "Ausgewogene Perspektive",
+        "Lokaler Expertenguide",
+        "Stadttransformationsgeschichte"
+      ]
+    },
     "bookButton": "Los geht's! 🚀"
   },
   "about": {

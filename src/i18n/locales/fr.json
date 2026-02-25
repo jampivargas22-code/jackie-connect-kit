@@ -350,6 +350,46 @@
         "Expérience éducative"
       ]
     },
+    "museum": {
+      "title": "Musée Pablo Escobar 🎟️",
+      "description": "Visitez le Musée Pablo Escobar - apprenez la vraie histoire avec l'entrée au musée incluse!",
+      "location": "Medellín, Antioquia",
+      "history": "Le Musée Pablo Escobar à Medellín raconte l'histoire du plus célèbre trafiquant de drogue de Colombie à travers des artefacts, des photographies et des effets personnels. Le musée offre un regard sobre sur l'impact du trafic de drogue sur la société colombienne et honore la mémoire des milliers de victimes.",
+      "background": "Situé au cœur de Medellín, le musée occupe un espace transformé en centre éducatif. Il présente des expositions qui retracent l'ascension et la chute du Cartel de Medellín et le remarquable chemin du pays vers la paix.",
+      "whatToExpect": "Une expérience profondément éducative qui va au-delà des séries Netflix. Vous verrez des artefacts authentiques, entendrez de vraies histoires et comprendrez comment Medellín s'est transformée. Le billet d'entrée au musée est inclus dans le prix.",
+      "features": [
+        "Billet d'entrée au musée inclus 🎟️",
+        "Transport privé vers/depuis le musée 🚗",
+        "Visite guidée avec contexte historique 📚",
+        "Artefacts et photographies authentiques 📷",
+        "Perspective équilibrée et éducative ⚖️",
+        "3-4 heures d'expérience complète 🕐"
+      ],
+      "itinerary": [
+        "Ramassage à votre hébergement",
+        "Trajet vers le Musée Pablo Escobar",
+        "Visite guidée du musée avec contexte historique",
+        "Voir les expositions et artefacts",
+        "Session de questions-réponses avec le guide",
+        "Retour à votre hébergement"
+      ],
+      "included": [
+        "Billet d'entrée au musée 🎟️",
+        "Transport privé",
+        "Guide en anglais et espagnol",
+        "Contexte historique et histoires",
+        "Opportunités photographiques",
+        "Eau en bouteille"
+      ],
+      "highlights": [
+        "Entrée au musée incluse",
+        "Artefacts historiques authentiques",
+        "Expérience éducative",
+        "Perspective équilibrée",
+        "Guide expert local",
+        "Histoire de transformation urbaine"
+      ]
+    },
     "bookButton": "Allons-y! 🚀"
   },
   "about": {
