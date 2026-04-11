@@ -1,14 +1,14 @@
 {
   "header": {
     "title": "Medellín mit Jackie",
-    "subtitle": "Deine coole lokale Fahrerin 🇨🇴",
+    "subtitle": "Dein:e coole lokale Fahrer:in 🇨🇴",
     "bookNow": "Jetzt Buchen"
   },
   "hero": {
     "badge": "✨ Dein Medellín-Abenteuer Beginnt Hier",
     "greeting": "Hey, ich bin",
     "name": "Jackie!",
-    "tagline": "Deine Lieblings-Lokalfahrerin 🚗💨",
+    "tagline": "Dein:e Lieblings-Lokalfahrer:in 🚗💨",
     "description": "Vergiss langweilige Taxifahrten! Ich bin hier, um dir das ECHTE Medellín mit Stil, Sicherheit und jeder Menge Spaß zu zeigen. Neues Auto 2025, Englisch (arbeite dran!), und viel lokalen Kaffee",
     "chatButton": "Lass uns chatten! 💬",
     "adventuresButton": "Abenteuer Ansehen",
@@ -42,7 +42,7 @@
       "included": [
         "Privates Fahrzeug mit professionellem Fahrer",
         "Spricht fließend Englisch & Spanisch 🗣️",
-        "Flaschenwasser und kleine Erfrischungen",
+        "Flaschenwasser und Snacks 🥤",
         "Echtzeit-GPS-Verfolgung",
         "24/7 Kundensupport"
       ],
@@ -117,7 +117,8 @@
         "Lokale Kunsthandwerker-Interaktionen",
         "Street-Food-Proben",
         "Foto-Guide",
-        "Kulturelle Einblicke"
+        "Kulturelle Einblicke",
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Weltberühmte Straßenkunst",
@@ -154,7 +155,8 @@
         "Produktions-Demonstration",
         "Mehrere Kaffee-Verkostungen",
         "Traditionelles Mittagessen",
-        "Englisch- und Spanisch-Guide"
+        "Englisch- und Spanisch-Guide",
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Authentisches Kaffee-Erlebnis",
@@ -190,7 +192,8 @@
         "Sicherheitsausrüstung",
         "Flugzeit (15-20 Minuten)",
         "Professionelle Fotos",
-        "Abschluss-Zertifikat"
+        "Abschluss-Zertifikat",
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Atemberaubende Luftblicke",
@@ -226,7 +229,8 @@
         "Historischer Kontext",
         "Lokales Expertenwissen",
         "Fotogelegenheiten",
-        "Kulturelle Einblicke"
+        "Kulturelle Einblicke",
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Historische Bedeutung",
@@ -262,7 +266,8 @@
         "Lokale Expertenempfehlungen",
         "Sicherheit und Schutz",
         "Englisch- und Spanisch-Betreuung",
-        "Notfallunterstützung"
+        "Notfallunterstützung",
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Vibrante Nachtlebensszene",
@@ -298,7 +303,8 @@
         "Geführte Touren und Aktivitäten",
         "Mahlzeiten nach Spezifikation",
         "24/7 Unterstützung",
-        "Flexible Zeitplanung"
+        "Flexible Zeitplanung",
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Umfassende Erkundung",
@@ -379,7 +385,7 @@
         "Englisch- und Spanisch-Guide",
         "Historischer Kontext und Geschichten",
         "Fotogelegenheiten",
-        "Flaschenwasser"
+        "Flaschenwasser und Snacks 🥤"
       ],
       "highlights": [
         "Museumseintritt inklusive",
@@ -397,7 +403,7 @@
     "title": "Warum Alle",
     "titleAccent": "Jackie",
     "titleEnd": "Lieben ❤️",
-    "description": "Deine vertrauenswürdige lokale Fahrerin in Medellín (ich kenne ALLE Orte 📍), bin ich seit über 5 Jahren die bevorzugte Fahrerin für coole Reisende. Gute Kommunikation in Englisch und Spanisch, immer mit der besten Playlist, und verpflichtet, dein kolumbianisches Abenteuer absolut unvergesslich zu machen!",
+    "description": "Dein:e vertrauenswürdige lokale Fahrer:in in Medellín (ich kenne ALLE Orte 📍), bin ich seit über 5 Jahren der/die bevorzugte Fahrer:in für coole Reisende. Gute Kommunikation in Englisch und Spanisch, immer mit der besten Playlist, und verpflichtet, dein kolumbianisches Abenteuer absolut unvergesslich zu machen!",
     "experience": "Über 5 Jahre",
     "experienceSub": "Erinnerungen schaffen ✨",
     "licensed": "100% Lizenziert",
@@ -432,7 +438,7 @@
     "callButton": "Jackie Anrufen 📞"
   },
   "footer": {
-    "tagline": "Deine vertrauenswürdige lokale Fahrerin in Medellín 🇨🇴",
+    "tagline": "Dein:e vertrauenswürdige lokale Fahrer:in in Medellín 🇨🇴",
     "description": "Direktbuchung • Neues Auto 2025 • Flughafentransfers • Private Touren • Mehrtägiger Chauffeur",
     "quickLinks": "Schnelllinks",
     "services": "Dienstleistungen",

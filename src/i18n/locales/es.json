@@ -1,18 +1,18 @@
 {
   "header": {
     "title": "Medellín con Jackie",
-    "subtitle": "Tu conductora local favorita 🇨🇴",
+    "subtitle": "Tu conductor@ local favorit@ 🇨🇴",
     "bookNow": "Reservar Ahora"
   },
   "hero": {
     "badge": "✨ Tu Aventura en Medellín Comienza Aquí",
     "greeting": "Hola, soy",
     "name": "Jackie!",
-    "tagline": "Tu conductora local favorita 🚗💨",
+    "tagline": "Tu conductor@ local favorit@ 🚗💨",
     "description": "¡Olvídate de los taxis aburridos! Estoy aquí para mostrarte el Medellín REAL con estilo, seguridad y mucha diversión. Carro nuevo 2025, inglés (¡trabajando en ello!), y mucho cafe local",
     "chatButton": "¡Hablemos! 💬",
     "adventuresButton": "Ver Aventuras",
-    "licensed": "Licenciada y Asegurada ✅",
+    "licensed": "Licenciad@ y Asegurad@ ✅",
     "newCar": "Carro 2025 🔥",
     "bilingual": "Buena Comunicación 🗣️",
     "happyTravelers": "Viajeros Felices 🎉"
@@ -45,7 +45,7 @@
       "included": [
         "Vehículo privado con conductor profesional",
         "Habla inglés y español fluido 🗣️",
-        "Agua embotellada y refrigerios ligeros",
+        "Agua embotellada y snacks 🥤",
         "Seguimiento GPS en tiempo real",
         "Soporte al cliente 24/7"
       ],
@@ -130,7 +130,8 @@
         "Interacciones con artesanos locales",
         "Muestras de comida callejera",
         "Guía fotográfico",
-        "Perspectivas culturales"
+        "Perspectivas culturales",
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Arte callejero mundialmente famoso",
@@ -172,7 +173,8 @@
         "Demostración de producción",
         "Múltiples degustaciones de café",
         "Almuerzo tradicional",
-        "Guía en inglés y español"
+        "Guía en inglés y español",
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Experiencia cafetera auténtica",
@@ -213,7 +215,8 @@
         "Equipo de seguridad",
         "Tiempo de vuelo (15-20 minutos)",
         "Fotos profesionales",
-        "Certificado de finalización"
+        "Certificado de finalización",
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Vistas aéreas espectaculares",
@@ -254,7 +257,8 @@
         "Contexto histórico",
         "Conocimiento experto local",
         "Oportunidades fotográficas",
-        "Perspectivas culturales"
+        "Perspectivas culturales",
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Significado histórico",
@@ -295,7 +299,8 @@
         "Recomendaciones de experto local",
         "Seguridad y protección",
         "Asistencia en inglés y español",
-        "Soporte de emergencia"
+        "Soporte de emergencia",
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Escena nocturna vibrante",
@@ -336,7 +341,8 @@
         "Tours y actividades guiadas",
         "Comidas según especificado",
         "Soporte 24/7",
-        "Horarios flexibles"
+        "Horarios flexibles",
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Exploración integral",
@@ -417,7 +423,7 @@
         "Guía en inglés y español",
         "Contexto histórico e historias",
         "Oportunidades fotográficas",
-        "Agua embotellada"
+        "Agua embotellada y snacks 🥤"
       ],
       "highlights": [
         "Entrada al museo incluida",
@@ -435,7 +441,7 @@
     "title": "Por Qué Todos",
     "titleAccent": "Aman",
     "titleEnd": "a Jackie ❤️",
-    "description": "Tu conductora local de confianza en Medellín (conozco TODOS los lugares 📍), he sido la conductora favorita de viajeros cool por más de 5 años. Buena comunicación en inglés y español, siempre con la mejor playlist, y comprometida a hacer tu aventura colombiana absolutamente inolvidable!",
+    "description": "Tu conductor@ local de confianza en Medellín (conozco TODOS los lugares 📍), he sido el/la conductor@ favorit@ de viajeros cool por más de 5 años. Buena comunicación en inglés y español, siempre con la mejor playlist, y comprometida a hacer tu aventura colombiana absolutamente inolvidable!",
     "experience": "Más de 5 Años",
     "experienceSub": "Creando memorias ✨",
     "licensed": "100% Licenciada",
@@ -470,7 +476,7 @@
     "callButton": "Llamar a Jackie 📞"
   },
   "footer": {
-    "tagline": "Tu conductora local de confianza en Medellín 🇨🇴",
+    "tagline": "Tu conductor@ local de confianza en Medellín 🇨🇴",
     "description": "Reserva directa • Carro nuevo 2025 • Recogidas aeropuerto • Tours privados • Chofer multi-día",
     "quickLinks": "Enlaces Rápidos",
     "services": "Servicios",

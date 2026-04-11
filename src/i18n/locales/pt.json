@@ -1,14 +1,14 @@
 {
   "header": {
     "title": "Medellín com Jackie",
-    "subtitle": "Sua motorista local favorita 🇨🇴",
+    "subtitle": "Seu/Sua motorista local favorit@ 🇨🇴",
     "bookNow": "Reservar Agora"
   },
   "hero": {
     "badge": "✨ Sua Aventura em Medellín Começa Aqui",
     "greeting": "Oi, eu sou a",
     "name": "Jackie!",
-    "tagline": "Sua motorista local favorita 🚗💨",
+    "tagline": "Seu/Sua motorista local favorit@ 🚗💨",
     "description": "Esqueça táxis chatos! Estou aqui para te mostrar a Medellín DE VERDADE com estilo, segurança e muita diversão. Carro novo 2025, inglês (trabalhando nisso!), e muito café local",
     "chatButton": "Vamos Conversar! 💬",
     "adventuresButton": "Ver Aventuras",
@@ -42,7 +42,7 @@
       "included": [
         "Veículo privado com motorista profissional",
         "Fala inglês e espanhol fluente 🗣️",
-        "Água engarrafada e refrescos leves",
+        "Água engarrafada e lanches 🥤",
         "Rastreamento GPS em tempo real",
         "Suporte ao cliente 24/7"
       ],
@@ -117,7 +117,8 @@
         "Interações com artesãos locais",
         "Amostras de comida de rua",
         "Guia fotográfico",
-        "Insights culturais"
+        "Insights culturais",
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Arte de rua mundialmente famosa",
@@ -154,7 +155,8 @@
         "Demonstração de produção",
         "Múltiplas degustações de café",
         "Almoço tradicional",
-        "Guia em inglês e espanhol"
+        "Guia em inglês e espanhol",
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Experiência autêntica de café",
@@ -190,7 +192,8 @@
         "Equipamento de segurança",
         "Tempo de voo (15-20 minutos)",
         "Fotos profissionais",
-        "Certificado de conclusão"
+        "Certificado de conclusão",
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Vistas aéreas deslumbrantes",
@@ -226,7 +229,8 @@
         "Contexto histórico",
         "Conhecimento de especialista local",
         "Oportunidades fotográficas",
-        "Insights culturais"
+        "Insights culturais",
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Significado histórico",
@@ -262,7 +266,8 @@
         "Recomendações de especialista local",
         "Segurança e proteção",
         "Assistência em inglês e espanhol",
-        "Suporte de emergência"
+        "Suporte de emergência",
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Cena noturna vibrante",
@@ -298,7 +303,8 @@
         "Passeios guiados e atividades",
         "Refeições conforme especificação",
         "Suporte 24/7",
-        "Planejamento flexível"
+        "Planejamento flexível",
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Exploração completa",
@@ -379,7 +385,7 @@
         "Guia em inglês e espanhol",
         "Contexto histórico e histórias",
         "Oportunidades fotográficas",
-        "Água engarrafada"
+        "Água engarrafada e lanches 🥤"
       ],
       "highlights": [
         "Entrada ao museu incluída",
@@ -397,7 +403,7 @@
     "title": "Por Que Todos",
     "titleAccent": "Amam",
     "titleEnd": "a Jackie ❤️",
-    "description": "Sua motorista local de confiança em Medellín (conheço TODOS os lugares 📍), sou a motorista preferida de viajantes legais há mais de 5 anos. Boa comunicação em inglês e espanhol, sempre com a melhor playlist, e comprometida a tornar sua aventura colombiana absolutamente inesquecível!",
+    "description": "Seu/Sua motorista local de confiança em Medellín (conheço TODOS os lugares 📍), sou o/a motorista preferid@ de viajantes legais há mais de 5 anos. Boa comunicação em inglês e espanhol, sempre com a melhor playlist, e comprometida a tornar sua aventura colombiana absolutamente inesquecível!",
     "experience": "Mais de 5 Anos",
     "experienceSub": "Criando memórias ✨",
     "licensed": "100% Licenciada",
@@ -432,7 +438,7 @@
     "callButton": "Ligar para Jackie 📞"
   },
   "footer": {
-    "tagline": "Sua motorista local de confiança em Medellín 🇨🇴",
+    "tagline": "Seu/Sua motorista local de confiança em Medellín 🇨🇴",
     "description": "Reserva direta • Carro novo 2025 • Transfers aeroporto • Tours privados • Motorista multi-dia",
     "quickLinks": "Links Rápidos",
     "services": "Serviços",
