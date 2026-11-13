@@ -508,6 +508,15 @@ const testimonials = [
                   <Phone className="w-4 h-4" />
                   <span>Phone: +57 313 5094607</span>
                 </div>
+                <a
+                  href="https://www.instagram.com/jackie2000mix_tour_y_oro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-white transition-colors"
+                >
+                  <Instagram className="w-4 h-4" />
+                  <span>Instagram: @jackie2000mix_tour_y_oro</span>
+                </a>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
                   <span>Medellín, Colombia 🇨🇴</span>
