@@ -22,7 +22,7 @@ export function ServiceCard({ id, title, description, price, image, features, cl
   const handleBookClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
     const message = `Hey Jackie! I'm interested in booking: ${title}. Can you give me more details?`;
-    window.open(`https://wa.me/573216122300?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/573135094607?text=${encodeURIComponent(message)}`, "_blank");
   };
   
   return (

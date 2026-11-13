@@ -10,7 +10,7 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: MessageCircle,
-    url: "https://wa.me/573216122300?text=Hey%20Jackie!%20Ready%20to%20explore%20Medellín%20🇨🇴",
+    url: "https://wa.me/573135094607?text=Hey%20Jackie!%20Ready%20to%20explore%20Medellín%20🇨🇴",
     color: "text-green-500 hover:text-green-600",
     bgColor: "hover:bg-green-50",
   },
@@ -54,7 +54,7 @@ export function WhatsAppButton({ className = "", children = "Chat on WhatsApp", 
     if (onClick) {
       onClick();
     } else {
-      window.open("https://wa.me/573216122300?text=Hey%20Jackie!%20I'm%20looking%20for%20transportation%20or%20private%20tours%20in%20Medellin", "_blank");
+      window.open("https://wa.me/573135094607?text=Hey%20Jackie!%20I'm%20looking%20for%20transportation%20or%20private%20tours%20in%20Medellin", "_blank");
     }
   };
 
