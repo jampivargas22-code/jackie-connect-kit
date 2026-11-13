@@ -17,7 +17,7 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: Instagram,
-    url: "https://instagram.com/jackiemedellin",
+    url: "https://www.instagram.com/jackie2000mix_tour_y_oro",
     color: "text-pink-500 hover:text-pink-600",
     bgColor: "hover:bg-pink-50",
   },
