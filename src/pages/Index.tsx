@@ -502,11 +502,11 @@ const testimonials = [
               <div className="space-y-3 text-white/70">
                 <div className="flex items-center gap-2">
                   <MessageCircle className="w-4 h-4" />
-                  <span>WhatsApp: +57 321 6122300</span>
+                  <span>WhatsApp: +57 313 5094607</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>Phone: +57 321 6122300</span>
+                  <span>Phone: +57 313 5094607</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />

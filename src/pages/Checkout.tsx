@@ -287,7 +287,7 @@ const Checkout = () => {
                     <Label htmlFor="phone">Phone Number</Label>
                     <Input
                       id="phone"
-                      placeholder="+57 321 6122300"
+                      placeholder="+57 313 5094607"
                       onChange={(e) => handleInputChange('phone', e.target.value)}
                     />
                   </div>
