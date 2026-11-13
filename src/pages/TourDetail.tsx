@@ -31,6 +31,7 @@ const TourDetail = () => {
   // Get tour data from translations and shared data
   const getTourData = (tourId: string) => {
     const sharedServiceData = sharedData.services[tourId as keyof typeof sharedData.services];
+    if (!sharedServiceData) return null;
     return {
       title: t(`services.${tourId}.title`),
       description: t(`services.${tourId}.description`),
