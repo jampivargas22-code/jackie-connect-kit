@@ -508,10 +508,6 @@ const testimonials = [
                   <Phone className="w-4 h-4" />
                   <span>Phone: +57 313 5094607</span>
                 </div>
-                <a href="https://www.instagram.com/j.j_exclusivo_18k" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-                  <Instagram className="w-4 h-4" />
-                  <span>Instagram: @j.j_exclusivo_18k</span>
-                </a>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
                   <span>Medellín, Colombia 🇨🇴</span>
