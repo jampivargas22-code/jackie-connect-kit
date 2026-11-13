@@ -531,6 +531,38 @@ const testimonials = [
           </div>
         </div>
       </footer>
+
+      {/* Mobile sticky contact bar */}
+      <div className="h-16 md:hidden" />
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white/95 backdrop-blur-sm border-t border-border shadow-hover">
+        <div className="grid grid-cols-3 gap-2 px-3 py-2">
+          <a
+            href="https://wa.me/573135094607?text=Hey%20Jackie!%20Ready%20to%20explore%20Medellín%20🇨🇴"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center gap-1 py-1 rounded-xl text-green-600 hover:bg-green-50 transition-smooth"
+          >
+            <MessageCircle className="w-5 h-5" />
+            <span className="text-xs font-semibold">WhatsApp</span>
+          </a>
+          <a
+            href="tel:+573135094607"
+            className="flex flex-col items-center justify-center gap-1 py-1 rounded-xl text-primary hover:bg-primary/10 transition-smooth"
+          >
+            <Phone className="w-5 h-5" />
+            <span className="text-xs font-semibold">Call</span>
+          </a>
+          <a
+            href="https://www.instagram.com/jackie2000mix_tour_y_oro"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center gap-1 py-1 rounded-xl text-pink-500 hover:bg-pink-50 transition-smooth"
+          >
+            <Instagram className="w-5 h-5" />
+            <span className="text-xs font-semibold">Instagram</span>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

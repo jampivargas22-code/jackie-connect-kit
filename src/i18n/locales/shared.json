@@ -111,9 +111,13 @@
       "duration": "3-4 hours",
       "groupSize": "1-8 people",
       "images": [
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop&crop=center"
+        "/__l5e/assets-v1/5fed3845-7cbd-429f-b440-c34bd155de12/museum-1.jpg",
+        "/__l5e/assets-v1/53a5489d-ba60-4785-9b1b-fe1aeaa121ce/museum-2.jpg",
+        "/__l5e/assets-v1/4e111e42-1863-4356-9c54-6d17e6a932e6/museum-3.jpg",
+        "/__l5e/assets-v1/7e9fd110-c18d-481b-8221-3b8164014e5e/museum-4.jpg",
+        "/__l5e/assets-v1/a8476ad0-8ff6-45c0-911a-5aff9b3f886e/museum-5.jpg",
+        "/__l5e/assets-v1/3eb08ad7-02cd-4fbd-8f92-795d16709a7c/museum-6.jpg",
+        "/__l5e/assets-v1/c82c36fa-ab45-43f7-bcb2-fbb7370e177d/museum-7.jpg"
       ]
     }
   }
